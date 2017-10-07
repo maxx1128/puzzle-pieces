@@ -1,0 +1,24 @@
+#{$g-nmsp}-btn {
+  display: inline-block;
+  padding: spacing(half) spacing();
+
+  text-decoration: none;
+
+  border-radius: container(border-radius, small);
+
+  transition: 0.25s;
+}
+
+#{$g-nmsp}-btn-small {
+  padding: spacing(half);
+
+  font-size: type(font-size, small);
+}
+
+#{$g-nmsp}-btn-large {
+  padding: spacing();
+
+  font-size: type(font-size, h5);
+
+  border-radius: container(border-radius);
+}

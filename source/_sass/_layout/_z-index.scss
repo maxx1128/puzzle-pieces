@@ -1,0 +1,3 @@
+@each $label, $index in $z-layers {
+  #{$g-nmsp}-zindex-#{$label} { z-index: $index; }
+}

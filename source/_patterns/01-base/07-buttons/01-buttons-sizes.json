@@ -1,0 +1,13 @@
+{
+  "button-sizes": [
+    {
+      "text": "Small Button",
+      "class": "plph-btn-small plph-bg-contrast-mono-darkest",
+      "link": "javascript:void(0)"
+    }, {
+      "text": "Large Button",
+      "class": "plph-btn-large plph-bg-contrast-mono-darkest",
+      "link": "javascript:void(0)"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+
+@each $palette, $swatches in $color-map {
+  @each $label, $color in $swatches {
+    #{$g-nmsp}-bg-#{$palette}-#{$label} { background-color: $color; }
+    #{$g-nmsp}-color-#{$palette}-#{$label} { color: $color; }
+    #{$g-nmsp}-bg-contrast-#{$palette}-#{$label} { @include contra-color($color); }
+
+    #{$g-nmsp}-bg-#{$palette}-#{$label}-hover {
+      @include hovers() { background-color: $color; }
+    }
+
+    #{$g-nmsp}-bg-contrast-#{$palette}-#{$label}-hover {
+      @include hovers() { @include contra-color($color); }
+    }
+  }
+}

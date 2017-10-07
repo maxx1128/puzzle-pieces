@@ -1,0 +1,47 @@
+@each $property, $elements in $typography-map {
+
+  @each $element, $value in $elements {
+    $cell-text: quote(inspect($value));
+
+    .type-cell__#{$element}-#{$property} {
+
+      &:after {
+        @if ($property == 'margin') {
+          content: str-replace($cell-text, ' 0', '');
+        } @else {
+          content: $cell-text;
+        }
+      }
+    }
+  }
+}
+
+#{$g-nmsp}-b-font-family__example { margin-bottom: spacing(double); }
+
+@each $property, $elements in $typography-map {
+
+  @if ($property == 'font-family') {
+    @each $family, $value in $elements {
+
+      #{$g-nmsp}-b-font-family__example-#{$family} {
+        position: relative;
+
+        text-transform: capitalize;
+        font-family: $value;
+        font-weight: type(font-weight, bold);
+
+        &:after {
+          content: quote(inspect($value));
+
+          font-weight: type(font-weight);
+        }
+      }
+    }
+  }
+}
+
+#{$g-nmsp}-b-font-family__table {
+  display: block;
+  max-width: 100%;
+  overflow: scroll;
+}

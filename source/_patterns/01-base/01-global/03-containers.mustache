@@ -1,0 +1,18 @@
+{{# container-elements }}
+  <h4 class="plph-b-container-el__title">
+    {{ property }}
+  </h4>
+
+  <br>
+
+  <div class="plph-b-container-el __{{ property }}">
+    {{# values }}
+      <div class="plph-b-container-el__item">
+        <div class="plph-b-container-el__inner-item __{{ property }}_{{name}}">
+        </div>
+      </div>
+    {{/ values }}
+  </div>
+
+  <hr>
+{{/ container-elements }}

@@ -1,0 +1,20 @@
+
+#{$g-nmsp}-border-a { border: 1px solid color(mono, darkest); }
+#{$g-nmsp}-border-t { border-top: 1px solid color(mono, darkest); }
+#{$g-nmsp}-border-r { border-right: 1px solid color(mono, darkest); }
+#{$g-nmsp}-border-b { border-bottom: 1px solid color(mono, darkest); }
+#{$g-nmsp}-border-l { border-left: 1px solid color(mono, darkest); }
+
+@each $palette, $swatches in $color-map {
+  @each $label, $color in $swatches {
+    #{$g-nmsp}-border-#{$palette}-#{$label} { border-color: $color; }
+  }
+}
+
+@each $label, $length in $spacing-map {
+  #{$g-nmsp}-border-a-w-#{$label} { border-width: $length; }
+  #{$g-nmsp}-border-t-w-#{$label} { border-top-width: $length; }
+  #{$g-nmsp}-border-r-w-#{$label} { border-right-width: $length; }
+  #{$g-nmsp}-border-b-w-#{$label} { border-bottom-width: $length; }
+  #{$g-nmsp}-border-l-w-#{$label} { border-left-width: $length; }
+}

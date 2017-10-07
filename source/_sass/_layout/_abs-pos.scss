@@ -1,0 +1,17 @@
+$abs-pos-keys: (
+  t: top,
+  r: right,
+  b: bottom,
+  l: left
+);
+
+#{$g-nmsp}-relative { position: relative; }
+#{$g-nmsp}-absolute { position: absolute; }
+#{$g-nmsp}-static { position: static; }
+#{$g-nmsp}-fixed { position: fixed; }
+
+@each $abs-key, $abs-prop in $abs-pos-keys {
+  @each $space-label, $space-val in $spacing-map {
+    #{$g-nmsp}-abs-#{$abs-key}-#{$space-label} { #{$abs-prop}: $space-val; }
+  }
+}

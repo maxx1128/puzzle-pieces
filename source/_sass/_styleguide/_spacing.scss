@@ -1,0 +1,48 @@
+$b-spacing-height: 3em;
+$b-spacing-color: color(secondary);
+
+$b-spacing-example-font-size: type(font-size, small);
+
+#{$g-nmsp}-b-spacing__container {
+  @include clearfix();
+  display: flex;
+}
+
+#{$g-nmsp}-b-spacing {
+  margin-bottom: spacing(quart);
+  flex: 1 1 100%;
+
+  @include larger-than(sm) {
+    padding: 0 spacing(quart);
+    margin-bottom: spacing(half);
+    float: left;
+    flex-basis: 50%;
+  }
+
+  @include larger-than(md) { flex-basis: 33%; }
+}
+
+#{$g-nmsp}-b-spacing__title { text-transform: capitalize; }
+
+#{$g-nmsp}-b-spacing__example {
+  height: $b-spacing-height;
+
+  background-color: $b-spacing-color;
+}
+
+@each $name, $distance in $spacing-map {
+  #{$g-nmsp}-b-spacing__#{$name} {
+    position: relative;
+    width: $distance;
+
+    &:after {
+      position: absolute;
+      top: spacing();
+      left: calc(100% + 0.5em);
+      content: quote(inspect($distance));
+
+      font-size: $b-spacing-example-font-size;
+      font-style: italic;
+    }
+  }
+}

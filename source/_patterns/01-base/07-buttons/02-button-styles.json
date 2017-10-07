@@ -1,0 +1,37 @@
+{
+  "button-sizes": [
+    {
+      "text": "Dark Button",
+      "class": "plph-bg-contrast-mono-darkest plph-bg-mono-darker-hover",
+      "link": "javascript:void(0)"
+    }, {
+      "text": "Light Button",
+      "class": "plph-bg-contrast-mono-lightest plph-bg-mono-lighter-hover",
+      "link": "javascript:void(0)"
+    }, {
+      "text": "Dark Primary Button",
+      "class": "plph-bg-contrast-primary-darker plph-bg-primary-darkest-hover",
+      "link": "javascript:void(0)"
+    }, {
+      "text": "Light Primary Button",
+      "class": "plph-bg-contrast-primary-lightest plph-bg-primary-lighter-hover",
+      "link": "javascript:void(0)"
+    }, {
+      "text": "Dark Secondary Button",
+      "class": "plph-bg-contrast-secondary-darker plph-bg-secondary-darkest-hover",
+      "link": "javascript:void(0)"
+    }, {
+      "text": "Light Secondary Button",
+      "class": "plph-bg-contrast-secondary-lightest plph-bg-secondary-lighter-hover",
+      "link": "javascript:void(0)"
+    }, {
+      "text": "Dark Action Button",
+      "class": "plph-bg-contrast-action-darker plph-bg-action-darkest-hover",
+      "link": "javascript:void(0)"
+    }, {
+      "text": "Light Action Button",
+      "class": "plph-bg-contrast-action-lightest plph-bg-action-lighter-hover",
+      "link": "javascript:void(0)"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "container-elements": [
+    { 
+      "property": "border-radius",
+      "values": [
+        { "name": "base" },
+        { "name": "large" }
+      ]
+    }, { 
+      "property": "box-shadow",
+      "values": [
+        { "name": "1" },
+        { "name": "2" },
+        { "name": "3" },
+        { "name": "4" },
+        { "name": "4" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+$cont-item-bg: #eee;
+$cont-item-width: 85%;
+$cont-item-minheight: 100px;
+$cont-item-marg-bottom: spacing(double);
+
+#{$g-nmsp}-b-container-el {
+  @include clearfix();
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-bottom: spacing();
+}
+
+#{$g-nmsp}-b-container-el__title {
+  text-transform: capitalize;
+}
+
+#{$g-nmsp}-b-container-el__item {
+  flex: 1 1 100%;
+
+  @include larger-than(sm) {
+    float: left;
+    flex-basis: 50%;
+  }
+  
+  @include larger-than(md) { flex-basis: 33%; }
+}
+
+#{$g-nmsp}-b-container-el__inner-item {
+  position: relative;
+  width: $cont-item-width;
+  min-height: $cont-item-minheight;
+  margin: 0 auto $cont-item-marg-bottom auto;
+
+  background-color: $cont-item-bg;
+
+  @each $property, $values in $containers-map {
+    @each $label, $value in $values {
+      $value-text: quote(inspect($value));
+      $label-text: quote(inspect($label));
+      $full-text: $label-text + ': ' + $value-text;
+
+      &.__#{$property}_#{$label} {
+        #{$property}: #{$value};
+
+        &::after {
+          content: $full-text;
+        }
+
+        @if ($property == 'padding') {
+
+          &::after {
+            position: absolute;
+            top: $value + spacing(half);
+          }
+
+          &::before {
+            position: absolute;
+            top: $value;
+            content: '';
+            display: block;
+
+            background-color: color(primary, light);
+          }
+
+        } @else {
+
+          &::after {
+            position: absolute;
+            top: spacing();
+            left: spacing();
+          }
+        }
+      }
+    }
+  }
+
+
+  // &.__border_base
+}

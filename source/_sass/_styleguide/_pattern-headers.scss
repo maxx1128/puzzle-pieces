@@ -1,0 +1,44 @@
+.sg-header { display: none; }
+
+@include bem-mods-id('viewall-viewall-') {
+  .sg-pattern-category-title {
+    display: none;
+  }
+}
+
+.viewall-viewall-base {
+
+}
+
+.sg-pattern,
+.sg-pattern-category-title,
+.sg-pattern-category-body {
+  @include clearfix();
+  padding: spacing(half);
+}
+
+.sg-pattern-category-body { padding: 0 spacing() spacing() spacing(); }
+
+.sg-pattern-head {
+  padding: spacing() 0;
+  margin: 0 0 spacing(double) 0;
+
+  font-family: type(font-family, header);
+
+  border-bottom: 1px solid color(mono, darkest);
+
+  .sg-pattern-title { font-size: type(font-size, h3) !important; }
+
+  a {
+    display: block;
+
+    cursor: pointer;
+    text-decoration: none;
+    color: color(mono, dark);
+
+    @include hovers() {
+      color: color(mono, dark);
+    }
+  }
+}
+

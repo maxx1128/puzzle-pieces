@@ -1,0 +1,15 @@
+<div class="plph-b-swatches"> 
+  {{#color-schemes}}
+  <div class="plph-b-swatch--{{scheme}}">
+  	
+  	<div class="plph-b-swatch__base"></div>
+
+  	<div class="plph-b-swatch__all-tones">
+  		{{#color-tones}}
+  			<div class="plph-b-swatch__tone plph-b-swatch__tone--{{tone}}"></div>
+  		{{/color-tones}}
+  	</div>
+
+  </div>
+  {{/color-schemes}}
+</div>

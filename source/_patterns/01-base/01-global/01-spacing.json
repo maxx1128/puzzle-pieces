@@ -1,0 +1,12 @@
+{
+  "spacing": [
+    { "distance": "quad" },
+    { "distance": "triple" },
+    { "distance": "double" },
+    { "distance": "oneHalf" },
+    { "distance": "base" },
+    { "distance": "half" },
+    { "distance": "third" },
+    { "distance": "quart" }
+  ]
+}

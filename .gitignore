@@ -1,0 +1,9 @@
+node_modules/
+_bower_components/
+.DS_Store
+patternlab.json
+.sass-cache/*
+/sass-cache
+Thumbs.db
+.idea/
+public
