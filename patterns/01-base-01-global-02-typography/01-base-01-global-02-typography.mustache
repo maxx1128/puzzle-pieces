@@ -1,0 +1,50 @@
+<h5>
+  Font Families
+</h5>
+
+<br> {{# font-families }}
+<div class="max-b-font-family__example max-b-font-family__{{ name }}">
+  <span class="max-b-font-family__example-{{ name }}">
+      {{ name }}: 
+    </span>
+</div>
+{{/ font-families }}
+
+<br><br>
+
+<h5>
+  Font Sizes
+</h5>
+
+<table class="max-b-font-family__table">
+  <thead>
+    <th width="30%">
+      Element
+    </th>
+
+    {{# type-properties }}
+    <th>
+      {{ name }}
+    </th>
+    {{/ type-properties }}
+  </thead>
+
+  <tbody>
+    {{# type-elements }}
+    <tr>
+      <td>
+        <{{ element }}>
+          {{ label }}
+        </{{ element }}>
+      </td>
+
+      {{# type-properties }}
+      <td>
+        <{{ element }} class="type-cell__{{ element }}-{{ property }}">
+        </{{ element }}>
+      </td>
+      {{/ type-properties }}
+    </tr>
+    {{/ type-elements }}
+  </tbody>
+</table>

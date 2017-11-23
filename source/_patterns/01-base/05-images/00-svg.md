@@ -1,1 +1,0 @@
-SVG icons, uses the [feather icon](https://feathericons.com/) set!

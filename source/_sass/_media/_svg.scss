@@ -1,6 +1,0 @@
-@each $label, $font-size in map-get($typography-map, font-size) {
-  #{$g-nmsp}-svg-#{$label} {
-    width: $font-size;
-    height: $font-size;
-  }
-}

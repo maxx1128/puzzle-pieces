@@ -1,0 +1,154 @@
+{
+  "version": 1,
+  "timestamp": 1511405646181,
+  "graph": {
+    "options": {
+      "directed": true,
+      "multigraph": false,
+      "compound": false
+    },
+    "nodes": [
+      {
+        "v": "00-intro/00-getting-started.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-base/01-global/00-colors.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-base/01-global/01-spacing.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-base/01-global/02-typography.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-base/01-global/03-containers.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-base/03-text/00-headings.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-base/03-text/02-paragraph.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-base/03-text/03-blockquote.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-base/03-text/04-inline-elements.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-base/04-lists/00-unordered.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-base/04-lists/01-ordered.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-base/05-images/00-logo.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-base/05-images/00-svg.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-components-05-media-00-svg-bubble/02-components-05-media-00-svg-bubble.rendered.html",
+          "lineagePattern": "components-svg-bubble"
+        }
+      },
+      {
+        "v": "01-base/05-images/05-figure-with-caption.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-base/07-buttons/00-default-button.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/01-base-07-buttons-02-button-styles/01-base-07-buttons-02-button-styles.rendered.html",
+          "lineagePattern": "base-button-styles"
+        }
+      },
+      {
+        "v": "01-base/07-buttons/01-buttons-sizes.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-base/07-buttons/02-button-styles.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-components/05-media/00-svg-bubble.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "/Users/maxwellantonucci/Documents/antonucci-pattern-lab/source/_meta/_00-head.mustache",
+        "value": {
+          "compileState": null
+        }
+      },
+      {
+        "v": "/Users/maxwellantonucci/Documents/antonucci-pattern-lab/source/_meta/_01-foot.mustache",
+        "value": {
+          "compileState": null
+        }
+      }
+    ],
+    "edges": [
+      {
+        "v": "01-base/07-buttons/01-buttons-sizes.mustache",
+        "w": "01-base/07-buttons/00-default-button.mustache",
+        "value": {}
+      },
+      {
+        "v": "01-base/07-buttons/02-button-styles.mustache",
+        "w": "01-base/07-buttons/00-default-button.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-components/05-media/00-svg-bubble.mustache",
+        "w": "01-base/05-images/00-svg.mustache",
+        "value": {}
+      }
+    ]
+  }
+}
