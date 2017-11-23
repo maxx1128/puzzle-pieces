@@ -11,7 +11,7 @@ var
   chalk        = require('chalk')
   
   plumber      = require('gulp-plumber'),
-  // ghPages      = require('gulp-gh-pages'),
+  ghPages      = require('gulp-gh-pages'),
   autoprefixer = require('gulp-autoprefixer'),
   include      = require('gulp-include'),
   notify       = require('gulp-notify'),
@@ -380,14 +380,14 @@ gulp.task('browserify', function(done) {
 });
 
 
-// gulp.task('pages', function() {
-//   return gulp.src('public/**/**/**/*')
-//     .pipe(ghPages({
-//       force: true,
-//       remoteUrl: "https://github.com/maxx1128/Journeys-in-Recovery-PatternLibrary.git",
-//       cacheDir: 'public/**/**/**/*'
-//     }));
-// });
+gulp.task('pages', function() {
+  return gulp.src('public/**/**/**/*')
+    .pipe(ghPages({
+      force: true,
+      remoteUrl: "https://github.com/maxx1128/puzzle-pieces.git",
+      cacheDir: 'public/**/**/**/*'
+    }));
+});
 
 
 /******************************************************
