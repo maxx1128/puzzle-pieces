@@ -1,5 +1,5 @@
 ---
-el: ".plph-b-swatches"
+el: ".max-b-swatches"
 title: "Colors"
 ---
 

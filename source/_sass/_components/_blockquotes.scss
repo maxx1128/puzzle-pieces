@@ -1,4 +1,27 @@
 blockquote,
 #{$g-nmsp}-blockquote {
-  
+  margin: 0;
+  padding: spacing();
+
+  font-size: type(font-size, h5);
+  line-height: type(line-height, h3);
+
+  border: spacing(third) solid color(primary, darkest);
+  border-top-color: color(primary, darker);
+  border-bottom-color: color(primary, dark);
+  box-shadow: container(box-shadow, 2);
+
+  @include larger-than(md) {
+    max-width: breakpoint(sm);
+    float: right;
+  }
+}
+
+blockquote cite,
+#{$g-nmsp}-c-citation {
+  display: block;
+
+  text-align: right;
+  font-size: type(font-size, h6);
+  font-weight: type(font-weight, bold);
 }

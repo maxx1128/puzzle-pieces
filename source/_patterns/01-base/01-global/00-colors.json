@@ -1,7 +1,6 @@
 {
   "color-schemes": [
     { "scheme": "primary" },
-    { "scheme": "secondary" },
     { "scheme": "action" },
     { "scheme": "mono" }
   ],

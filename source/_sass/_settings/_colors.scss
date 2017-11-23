@@ -11,12 +11,11 @@
 
 $g-color--shade: 20%;
 $g-color--shade-2: 45%;
-$g-color--shade-3: 65%;
+$g-color--shade-3: 75%;
 
-$g-color--primary: #5ab46a;
-$g-color--secondary: #7b8bac;
-$g-color--action: #eb7560;
-$g-color--mono: #373737;
+$g-color--primary: #4a83c5;
+$g-color--action: #d54a52;
+$g-color--mono: #736a73;
 
 
 // Map for storing all color variables
@@ -31,18 +30,6 @@ $color-map: (
     dark: shade($g-color--primary, $g-color--shade),
     darker: shade($g-color--primary, $g-color--shade-2),
     darkest: shade($g-color--primary, $g-color--shade-3)
-  ),
-
-  secondary: (
-    base: $g-color--secondary,
-
-    light: tint($g-color--secondary, $g-color--shade),
-    lighter: tint($g-color--secondary, $g-color--shade-2),
-    lightest: tint($g-color--secondary, $g-color--shade-3),
-
-    dark: shade($g-color--secondary, $g-color--shade),
-    darker: shade($g-color--secondary, $g-color--shade-2),
-    darkest: shade($g-color--secondary, $g-color--shade-3)
   ),
 
   action: (

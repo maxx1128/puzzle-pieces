@@ -1,6 +1,9 @@
 $header-els: 'h1', 'h2', 'h3', 'h4', 'h5', 'h6';
 
-body { font-family: type(font-family, base); }
+body {
+  line-height: type(line-height, p);
+  font-family: type(font-family, base);
+}
 
 code,
 kbd { font-family: type(font-family, mono); }

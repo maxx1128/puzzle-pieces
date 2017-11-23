@@ -7,4 +7,4 @@ let
   primaryNav = require('./components/primaryNav.js')
 ;
 
-primaryNav.activate('.plph-c-primaryNav:not([jr-init])');
+primaryNav.activate('.max-c-primaryNav:not([jr-init])');

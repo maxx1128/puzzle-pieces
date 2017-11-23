@@ -1,0 +1,11 @@
+{
+  "svg_bubble": {
+    "classes": "",
+
+    "svgs": [{
+      "svg": {
+        "icon": "circle"
+      }
+    }]
+  }
+}

@@ -2,7 +2,9 @@
 
 let
   $ = require('jquery'),
+  feather = require('feather-icons'),
   primaryNav = require('./components/primaryNav')
 ;
 
-primaryNav.activate('.plph-c-nav');
+feather.replace();
+primaryNav.activate('.max-c-nav');
