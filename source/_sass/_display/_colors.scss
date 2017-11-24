@@ -10,7 +10,11 @@
     }
 
     #{$g-nmsp}-bg-contrast-#{$palette}-#{$label}-hover {
-      @include hovers() { @include contra-color($color); }
+      @include hovers() {
+        @include contra-color($color);
+        transition: color 0.5s;
+        transition: background-color 0.5s;
+      }
     }
   }
 }

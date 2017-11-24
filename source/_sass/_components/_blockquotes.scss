@@ -1,20 +1,16 @@
 blockquote,
 #{$g-nmsp}-blockquote {
-  margin: 0;
   padding: spacing();
+  margin: type(margin, p);
 
-  font-size: type(font-size, h5);
-  line-height: type(line-height, h3);
+  font-size: type(font-size, h6);
+  line-height: type(line-height, h4);
+  font-family: type(font-family, header);
 
   border: spacing(third) solid color(primary, darkest);
   border-top-color: color(primary, darker);
   border-bottom-color: color(primary, dark);
-  box-shadow: container(box-shadow, 2);
-
-  @include larger-than(md) {
-    max-width: breakpoint(sm);
-    float: right;
-  }
+  box-shadow: container(box-shadow, 1);
 }
 
 blockquote cite,

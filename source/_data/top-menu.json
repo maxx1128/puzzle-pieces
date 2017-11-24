@@ -1,0 +1,33 @@
+{
+  "top_menu": {
+    "items": [
+      {
+        "top_menu_link": {
+          "text": "Link 1",
+          "href": "javascript:void(0)"
+        }
+      }, {
+        "top_menu_link": {
+          "text": "Link 2",
+          "href": "javascript:void(0)",
+          "active": true
+        }
+      }, {
+        "top_menu_link": {
+          "text": "Link 3",
+          "href": "javascript:void(0)"
+        }
+      }, {
+        "top_menu_link": {
+          "text": "Link 4",
+          "href": "javascript:void(0)"
+        }
+      }, {
+        "top_menu_link": {
+          "text": "Link 5",
+          "href": "javascript:void(0)"
+        }
+      }
+    ]
+  }
+}

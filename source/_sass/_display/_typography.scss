@@ -9,6 +9,8 @@ code,
 kbd { font-family: type(font-family, mono); }
 
 #{$g-nmsp}-italic { font-style: italic; }
+#{$g-nmsp}-underline { text-decoration: underline; }
+#{$g-nmsp}-no-underline { text-decoration: none; }
 
 ul,
 ol {
