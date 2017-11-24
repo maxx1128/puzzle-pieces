@@ -2,9 +2,12 @@
 
 let
   $ = require('jquery'),
+  f = require('./functions/basic'),
   feather = require('feather-icons'),
-  primaryNav = require('./components/primaryNav')
+  wisdoms = require('./components/wisdoms')
 ;
 
 feather.replace();
-primaryNav.activate('.max-c-nav');
+wisdoms.activate();
+
+f.external_links('a');
