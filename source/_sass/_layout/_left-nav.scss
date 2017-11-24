@@ -1,0 +1,25 @@
+#{$g-nmsp}-l-leftNav {
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto 1fr;
+  grid-gap: 0;
+
+  background-color: color(mono, lightest);
+}
+
+#{$g-nmsp}-l-leftNav__top {
+  grid-column: 1 / span 12;
+}
+
+#{$g-nmsp}-l-leftNav__nav {
+  grid-column: 1 / span 4;
+}
+
+#{$g-nmsp}-l-leftNav__content {
+  max-height: 100vh;
+  padding: spacing();
+  grid-column: 5 / span 8;
+
+  overflow-y: scroll;
+}

@@ -1,5 +1,6 @@
 {
-  "title" : "Pattern Lab",
+  "title": "Puzzle Pieces",
+  "tagline": "Max Antonucci's pattern library",
   "htmlClass": "pl",
   "bodyClass": "body",
   "img": {

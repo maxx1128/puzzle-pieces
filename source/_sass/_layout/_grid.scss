@@ -1,5 +1,17 @@
 * { box-sizing: border-box; }
 
+html {
+  background-color: color(mono, lighter);
+}
+
+body {
+  margin: 0 auto;
+  max-width: breakpoint(max);
+
+  box-shadow: container(box-shadow, 4);
+  background-color: color(mono, lightest);
+}
+
 @each $label, $width in $breakpoint-map {
   
   @if ($label != 'xs') {
@@ -8,5 +20,6 @@
 }
 
 #{$g-nmsp}-clearfix { @include clearfix(); }
-#{$g-nmsp}-maxWidth-100 { max-width: 100%; }
+#{$g-nmsp}-max-width-100 { max-width: 100%; }
+#{$g-nmsp}-full-height { height: 100%; }
 

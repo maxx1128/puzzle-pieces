@@ -1,0 +1,37 @@
+{
+  "left_nav": {
+    "classes": "",
+
+    "social_icons": [
+      {
+        "label": "Social Network",
+        "href": "javascript:void(0)",
+        "alt": "social network",
+        "svg": {
+          "icon": "feather"
+        }
+      }, {
+        "label": "Social Network",
+        "href": "javascript:void(0)",
+        "alt": "social network",
+        "svg": {
+          "icon": "feather"
+        }
+      }, {
+        "label": "Social Network",
+        "href": "javascript:void(0)",
+        "alt": "social network",
+        "svg": {
+          "icon": "feather"
+        }
+      }, {
+        "label": "Social Network",
+        "href": "javascript:void(0)",
+        "alt": "social network",
+        "svg": {
+          "icon": "feather"
+        }
+      }
+    ]
+  }
+}
