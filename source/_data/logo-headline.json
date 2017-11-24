@@ -1,0 +1,21 @@
+{
+  "logo_headline": {
+    "classes": "",
+
+    "headline": {
+      "text": "Lorem Ipsum",
+      "classes": ""
+    },
+    
+    "logo": {
+      "svg_bubble": {
+        "classes": "max-svg-h2 max-flex-item max-flex-nogrow max-mr-base",
+        "svgs": [{
+          "svg": {
+            "icon": "feather",
+          }
+        }]
+      }
+    }
+  }
+}

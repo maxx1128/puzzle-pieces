@@ -51,12 +51,12 @@ $typography-map: (
   ),
 
   line-height: (
-    h1: decimal-round(modular-scale(3), 2),
-    h2: decimal-round(modular-scale(3), 2),
-    h3: decimal-round(modular-scale(3), 2),
-    h4: decimal-round(modular-scale(2), 2),
-    h5: decimal-round(modular-scale(2), 2),
-    h6: decimal-round(modular-scale(2), 2),
+    h1: decimal-round(modular-scale(2), 2),
+    h2: decimal-round(modular-scale(2), 2),
+    h3: decimal-round(modular-scale(2), 2),
+    h4: decimal-round(modular-scale(1), 2),
+    h5: decimal-round(modular-scale(1), 2),
+    h6: decimal-round(modular-scale(1), 2),
     p: decimal-round(modular-scale(2), 2),
     small: decimal-round(modular-scale(1), 2),
     tiny: decimal-round(modular-scale(1), 2),

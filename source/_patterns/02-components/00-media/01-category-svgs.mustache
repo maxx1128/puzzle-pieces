@@ -1,0 +1,13 @@
+<div class="max-flex max-flex-wrap">
+  {{#category_svgs}}
+    <div class="max-flex-item max-text-center max-flex max-flex-column max-flex-align-center max-px-base">
+      {{> base-svg }}
+      <tiny>
+        {{ svg.icon }}
+      </tiny>
+      <h5>
+        {{label}}
+      </h5>
+    </div>
+  {{/category_svgs}}  
+</div>

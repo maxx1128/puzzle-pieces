@@ -12,6 +12,25 @@ kbd { font-family: type(font-family, mono); }
 #{$g-nmsp}-underline { text-decoration: underline; }
 #{$g-nmsp}-no-underline { text-decoration: none; }
 
+#{$g-nmsp}-db-underline {
+  position: relative;
+  margin-bottom: spacing();
+
+  border-bottom: 2px solid color(mono);
+
+  &::after {
+    content: '';
+    
+    position: absolute;
+    top: calc(100% + #{spacing(half)});
+    right: 0;
+    left: 0;
+    height: 1px;
+
+    background-color: color(mono, lighter);
+  }
+}
+
 ul,
 ol {
   margin-bottom: spacing(half);
