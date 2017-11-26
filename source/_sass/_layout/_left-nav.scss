@@ -1,24 +1,40 @@
 #{$g-nmsp}-l-leftNav {
   display: grid;
-  height: 100vh;
-  max-height: 100vh;
-  overflow: hidden;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: auto 1fr;
+  grid-template-columns: 1;
+  grid-template-rows: repeat(3, auto);
   grid-gap: 0;
+
+  @include larger-than(md) {
+    height: 100vh;
+    max-height: 100vh;
+    grid-template-columns: rem(350px) 1fr;
+    grid-template-rows: auto 1fr;
+
+    overflow: hidden;
+  }
 }
 
 #{$g-nmsp}-l-leftNav__top {
-  grid-column: 1 / span 12;
+
+  @include larger-than(md) {
+    grid-column: 1 / span 2;
+  }
 }
 
 #{$g-nmsp}-l-leftNav__nav {
-  grid-column: 1 / span 4;
+
+  @include larger-than(md) {
+    grid-column: 1 / span 1;
+  }
 }
 
 #{$g-nmsp}-l-leftNav__content {
-  max-height: 100vh;
-  grid-column: 5 / span 8;
+  grid-row: 2 / span 1;
 
-  overflow-y: scroll;
+  @include larger-than(md) {
+    max-height: 100vh;
+    grid-column: 2 / span 1;
+
+    overflow-y: scroll;
+  }
 }
