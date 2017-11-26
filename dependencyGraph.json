@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1511405646181,
+  "timestamp": 1511719486657,
   "graph": {
     "options": {
       "directed": true,
@@ -53,7 +53,9 @@
       {
         "v": "01-base/03-text/03-blockquote.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-components-05-content-01-article/02-components-05-content-01-article.rendered.html",
+          "lineagePattern": "components-article"
         }
       },
       {
@@ -84,8 +86,8 @@
         "v": "01-base/05-images/00-svg.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-components-05-media-00-svg-bubble/02-components-05-media-00-svg-bubble.rendered.html",
-          "lineagePattern": "components-svg-bubble"
+          "lineagePath": "../../patterns/03-patterns-01-navigation-02-left-nav/03-patterns-01-navigation-02-left-nav.rendered.html",
+          "lineagePattern": "patterns-left-nav"
         }
       },
       {
@@ -115,7 +117,75 @@
         }
       },
       {
-        "v": "02-components/05-media/00-svg-bubble.mustache",
+        "v": "02-components/00-media/01-category-svgs.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-components/00-media/02-svg-bubble.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-components-04-typography-01-logo-headline/02-components-04-typography-01-logo-headline.rendered.html",
+          "lineagePattern": "components-logo-headline"
+        }
+      },
+      {
+        "v": "02-components/01-navigation/00-top-menu-link.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-patterns-01-navigation-01-top-menu/03-patterns-01-navigation-01-top-menu.rendered.html",
+          "lineagePattern": "patterns-top-menu"
+        }
+      },
+      {
+        "v": "02-components/04-typography/00-double-underline.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "02-components/04-typography/01-logo-headline.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-components-05-content-01-article/02-components-05-content-01-article.rendered.html",
+          "lineagePattern": "components-article"
+        }
+      },
+      {
+        "v": "02-components/05-content/01-article.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-templates-02-article/04-templates-02-article.rendered.html",
+          "lineagePattern": "templates-article"
+        }
+      },
+      {
+        "v": "02-components/05-content/05-wisdom.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-patterns-01-navigation-02-left-nav/03-patterns-01-navigation-02-left-nav.rendered.html",
+          "lineagePattern": "patterns-left-nav"
+        }
+      },
+      {
+        "v": "03-patterns/01-navigation/01-top-menu.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-templates-02-article/04-templates-02-article.rendered.html",
+          "lineagePattern": "templates-article"
+        }
+      },
+      {
+        "v": "03-patterns/01-navigation/02-left-nav.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-templates-02-article/04-templates-02-article.rendered.html",
+          "lineagePattern": "templates-article"
+        }
+      },
+      {
+        "v": "04-templates/02-article.mustache",
         "value": {
           "compileState": "clean"
         }
@@ -145,8 +215,58 @@
         "value": {}
       },
       {
-        "v": "02-components/05-media/00-svg-bubble.mustache",
+        "v": "02-components/00-media/01-category-svgs.mustache",
         "w": "01-base/05-images/00-svg.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-components/00-media/02-svg-bubble.mustache",
+        "w": "01-base/05-images/00-svg.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-components/04-typography/01-logo-headline.mustache",
+        "w": "02-components/00-media/02-svg-bubble.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-components/05-content/01-article.mustache",
+        "w": "02-components/04-typography/01-logo-headline.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-components/05-content/01-article.mustache",
+        "w": "01-base/03-text/03-blockquote.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-patterns/01-navigation/01-top-menu.mustache",
+        "w": "02-components/01-navigation/00-top-menu-link.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-patterns/01-navigation/02-left-nav.mustache",
+        "w": "01-base/05-images/00-svg.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-patterns/01-navigation/02-left-nav.mustache",
+        "w": "02-components/05-content/05-wisdom.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-templates/02-article.mustache",
+        "w": "03-patterns/01-navigation/01-top-menu.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-templates/02-article.mustache",
+        "w": "03-patterns/01-navigation/02-left-nav.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-templates/02-article.mustache",
+        "w": "02-components/05-content/01-article.mustache",
         "value": {}
       }
     ]
