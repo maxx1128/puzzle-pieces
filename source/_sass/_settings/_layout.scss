@@ -30,7 +30,9 @@ $spacing-map: (
 
   half   : decimal-round(($g-base-spacing / 2), 2),
   third  : decimal-round(($g-base-spacing / 3), 2),
-  quart  : decimal-round(($g-base-spacing / 4), 2)
+  quart  : decimal-round(($g-base-spacing / 4), 2),
+
+  svg-bubble : rem(60px)
 );
 
 $z-layers: (

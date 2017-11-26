@@ -3,7 +3,16 @@
     {{> components-svg-bubble }}
   {{/logo_headline.logo}}
 
-  <h3 class="max-flex-item {{double_underline}} {{logo_headline.headline.classes}}">
-    {{logo_headline.headline.text}}
-  </h3>
+  {{#logo_headline.single}}
+    <h2 class="max-flex-item {{double_underline}} {{logo_headline.headline.classes}}">
+      {{logo_headline.headline.text}}
+    </h2>
+  {{/logo_headline.single}}  
+  {{^logo_headline.single}}
+    <h4 class="max-flex-item {{double_underline}} {{logo_headline.headline.classes}}">
+      {{logo_headline.headline.text}}
+    </h4>
+  {{/logo_headline.single}}
+
+  
 </div>

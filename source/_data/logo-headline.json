@@ -1,5 +1,6 @@
 {
   "logo_headline": {
+    "single": true,
     "classes": "",
 
     "headline": {
@@ -9,7 +10,7 @@
     
     "logo": {
       "svg_bubble": {
-        "classes": "max-svg-h2 max-flex-item max-flex-nogrow max-mr-base",
+        "classes": "max-svg-h2 max-flex-item max-flex-nogrow max-mr-oneHalf",
         "svgs": [{
           "svg": {
             "icon": "feather",
