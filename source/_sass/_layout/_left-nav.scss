@@ -1,6 +1,8 @@
 #{$g-nmsp}-l-leftNav {
   display: grid;
   height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto 1fr;
   grid-gap: 0;

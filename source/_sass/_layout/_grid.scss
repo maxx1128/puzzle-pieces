@@ -6,13 +6,10 @@ html {
 
 body {
   margin: 0 auto;
-  max-height: 100vh;
   max-width: breakpoint(max);
 
   box-shadow: container(box-shadow, 4);
   background-color: color(mono, lightest);
-
-  overflow: hidden;
 }
 
 @each $label, $width in $breakpoint-map {
