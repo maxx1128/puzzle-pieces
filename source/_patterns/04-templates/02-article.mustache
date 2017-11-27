@@ -1,13 +1,13 @@
-<div class="max-l-leftNav">
-  <div class="max-l-leftNav__top">
+<div class="{{ left_nav.wrapper_classes }}">
+  <div class="{{ left_nav.top_classes }}">
     {{> patterns-top-menu }}
   </div>
 
-  <div class="max-l-leftNav__nav">
+  <div class="{{ left_nav.nav_classes }}">
     {{> patterns-left-nav }}
   </div>
 
-  <div class="max-l-leftNav__content max-p-base max-px-oneHalf-md max-px-svg-bubble-lg max-maxWidth-max max-mx-auto">
+  <div class="{{ left_nav.content_classes }}">
     {{> components-article }}
   </div>
 </div>

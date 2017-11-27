@@ -3,4 +3,9 @@
     width: $font-size;
     height: $font-size;
   }
+
+  #{$g-nmsp}-svg-children-#{$label} svg {
+    width: $font-size;
+    height: $font-size;
+  }
 }

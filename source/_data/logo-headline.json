@@ -10,10 +10,11 @@
     
     "logo": {
       "svg_bubble": {
-        "classes": "max-svg-h2 max-flex-item max-flex-nogrow max-mr-oneHalf",
+        "classes": "max-svg-children-h2 max-flex-item max-flex-nogrow max-mr-oneHalf max-mt-base",
         "svgs": [{
           "svg": {
             "icon": "feather",
+            "classes": ""
           }
         }]
       }

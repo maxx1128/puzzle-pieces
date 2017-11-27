@@ -3,6 +3,7 @@
     { 
       "property": "border-radius",
       "values": [
+        { "name": "small" },
         { "name": "base" },
         { "name": "large" }
       ]

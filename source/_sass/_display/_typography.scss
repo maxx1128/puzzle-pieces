@@ -14,7 +14,8 @@ kbd { font-family: type(font-family, mono); }
 
 #{$g-nmsp}-db-underline {
   position: relative;
-  margin-bottom: spacing();
+  padding-bottom: spacing(quart);
+  margin-bottom: spacing(double);
 
   border-bottom: 2px solid color(mono);
 

@@ -1,8 +1,9 @@
 .ma-svg-bubble {
-  min-width: spacing(svg-bubble);
+  width: spacing(svg-bubble);
+  max-width: spacing(svg-bubble);
 
-  border-top-right-radius: spacing();
-  border-bottom-left-radius: spacing();
+  border-top-right-radius: container(border-radius, large);
+  border-bottom-left-radius: container(border-radius, large);
 
   &::after {
     content: '';

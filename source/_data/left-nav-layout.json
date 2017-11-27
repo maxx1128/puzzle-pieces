@@ -1,0 +1,8 @@
+{
+  "left_nav": {
+    "wrapper_classes": "max-l-leftNav",
+    "top_classes": "max-l-leftNav__top",
+    "nav_classes": "max-l-leftNav__nav",
+    "content_classes": "max-l-leftNav__content max-p-base max-px-oneHalf-md max-px-svg-bubble-lg max-maxWidth-lg max-mx-auto"
+  }
+}

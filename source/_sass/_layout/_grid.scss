@@ -1,14 +1,10 @@
 * { box-sizing: border-box; }
 
-html {
-  background-color: color(mono, lighter);
-}
+html { background-color: color(mono, lighter); }
 
 body {
-  margin: 0 auto;
-  // max-width: breakpoint(max);
+  margin: 0;
 
-  box-shadow: container(box-shadow, 4);
   background-color: color(mono, lightest);
 }
 

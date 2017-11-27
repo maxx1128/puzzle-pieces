@@ -1,18 +1,18 @@
 <div class="max-full-height max-box-shadow-1">
   <div class="max-full-height max-flex max-flex-column max-flex-justify-between max-inset-shadow-dark max-p-base" style='background-image: url("{{ left_nav.bg_img }}")'>
     <div>
-      <h2 class="max-border-b max-border-mono-light">
+      <h2>
         {{title}}
       </h2>
-      <h5 class="max-color-mono-light max-font-weight-base max-pr-triple-md">
+      <h5 class="max-color-mono-light max-border-t max-border-mono-light max-font-weight-base max-mr-triple-md max-pt-base">
         {{tagline}}
       </h5>
     </div>
 
-    <div class="max-mt-base max-mt-triple-sm">
+    <div class="max-mt-double max-mt-triple-sm">
       <div class="max-flex max-flex-wrap max-flex-nowrap-md">
         {{#left_nav.social_icons}}
-          <a class="max-flex-item max-color-mono-lighter max-no-underline max-mr-half" href="href" target="_blank">
+          <a class="max-flex-item max-flex-nogrow max-color-mono-lighter max-no-underline max-mr-base" href="href" target="_blank">
             {{> base-svg}}
           </a>
         {{/left_nav.social_icons}}
