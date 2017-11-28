@@ -1,0 +1,12 @@
+{
+  "job_entry": [
+    {
+      "company": "Fake Company Name",
+      "title": "Fake Job Title",
+      "start": "2010",
+      "end": "Present",
+      "skills": "Skills, All, Go, Here",
+      "descr": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut distinctio, harum ullam. Et esse non adipisci cum doloremque aspernatur tenetur totam optio odit dolorum error architecto, nostrum distinctio temporibus molestias!"
+    }
+  ]
+}
