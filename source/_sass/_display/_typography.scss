@@ -42,6 +42,8 @@ ol {
   ol { margin-top: spacing(half); }
 }
 
+#{$g-nmsp}-list-style-none { list-style-type: none; }
+
 @each $header in $header-els {
   #{$header} { font-family: type(font-family, header); }
 }

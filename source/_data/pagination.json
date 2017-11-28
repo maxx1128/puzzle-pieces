@@ -1,0 +1,27 @@
+{
+  "pagination": {
+    "items": [
+      {
+        "content": "1",
+        "href": "javascript:void(0)",
+        "active": true
+      }, {
+        "content": "2",
+        "href": "javascript:void(0)",
+        "active": false
+      }, {
+        "content": "3",
+        "href": "javascript:void(0)",
+        "active": false
+      }, {
+        "content": "4",
+        "href": "javascript:void(0)",
+        "active": false
+      }, {
+        "content": "5",
+        "href": "javascript:void(0)",
+        "active": false
+      }
+    ]
+  }
+}

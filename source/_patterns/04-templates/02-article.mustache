@@ -9,5 +9,9 @@
 
   <div class="{{ left_nav.content_classes }}">
     {{> components-article }}
+
+    {{#pagination_active}}
+      {{> patterns-pagination }}
+    {{/pagination_active}}
   </div>
 </div>

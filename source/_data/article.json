@@ -1,14 +1,16 @@
 {
-  "article": {
-    "blockquote": true,
-
-    "p1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum fugiat voluptatibus commodi voluptas minima accusantium! Praesentium hic, est aut aliquam, suscipit aliquid tempore beatae eius aperiam, saepe porro quo enim?",
-    "p2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum fugiat voluptatibus commodi voluptas minima accusantium! Praesentium hic, est aut aliquam, suscipit aliquid tempore beatae eius aperiam, saepe porro quo enim?",
-    "p3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum fugiat voluptatibus commodi voluptas minima accusantium! Praesentium hic, est aut aliquam, suscipit aliquid tempore beatae eius aperiam, saepe porro quo enim?",
-    "p4": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum fugiat voluptatibus commodi voluptas minima accusantium! Praesentium hic, est aut aliquam, suscipit aliquid tempore beatae eius aperiam, saepe porro quo enim?",
-    "p5": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum fugiat voluptatibus commodi voluptas minima accusantium! Praesentium hic, est aut aliquam, suscipit aliquid tempore beatae eius aperiam, saepe porro quo enim?",
-    "p6": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum fugiat voluptatibus commodi voluptas minima accusantium! Praesentium hic, est aut aliquam, suscipit aliquid tempore beatae eius aperiam, saepe porro quo enim?",
-    "p7": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum fugiat voluptatibus commodi voluptas minima accusantium! Praesentium hic, est aut aliquam, suscipit aliquid tempore beatae eius aperiam, saepe porro quo enim?",
-    "p8": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum fugiat voluptatibus commodi voluptas minima accusantium! Praesentium hic, est aut aliquam, suscipit aliquid tempore beatae eius aperiam, saepe porro quo enim?"
-  }
+    "articles": [
+        {
+          "blockquote": true,
+      
+          "p1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum fugiat voluptatibus commodi voluptas minima accusantium! Praesentium hic, est aut aliquam, suscipit aliquid tempore beatae eius aperiam, saepe porro quo enim?",
+          "p2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum fugiat voluptatibus commodi voluptas minima accusantium! Praesentium hic, est aut aliquam, suscipit aliquid tempore beatae eius aperiam, saepe porro quo enim?",
+          "p3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum fugiat voluptatibus commodi voluptas minima accusantium! Praesentium hic, est aut aliquam, suscipit aliquid tempore beatae eius aperiam, saepe porro quo enim?",
+          "p4": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum fugiat voluptatibus commodi voluptas minima accusantium! Praesentium hic, est aut aliquam, suscipit aliquid tempore beatae eius aperiam, saepe porro quo enim?",
+          "p5": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum fugiat voluptatibus commodi voluptas minima accusantium! Praesentium hic, est aut aliquam, suscipit aliquid tempore beatae eius aperiam, saepe porro quo enim?",
+          "p6": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum fugiat voluptatibus commodi voluptas minima accusantium! Praesentium hic, est aut aliquam, suscipit aliquid tempore beatae eius aperiam, saepe porro quo enim?",
+          "p7": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum fugiat voluptatibus commodi voluptas minima accusantium! Praesentium hic, est aut aliquam, suscipit aliquid tempore beatae eius aperiam, saepe porro quo enim?",
+          "p8": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum fugiat voluptatibus commodi voluptas minima accusantium! Praesentium hic, est aut aliquam, suscipit aliquid tempore beatae eius aperiam, saepe porro quo enim?"
+        }
+    ]
 }

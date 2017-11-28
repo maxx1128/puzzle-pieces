@@ -1,39 +1,43 @@
-{{> components-logo-headline }}
+{{#articles}}
 
-<div class="max-ml-svg-bubble-md max-pl-oneHalf-md">
-  <p>
-    {{ article.p1 }}
-  </p>
+  {{> components-logo-headline }}
 
-  <p>
-    {{ article.p2 }}
-  </p>
+  <div class="max-ml-svg-bubble-md max-pl-oneHalf-md max-mb-quad">
+    <p>
+      {{ p1 }}
+    </p>
 
-  <p>
-    {{ article.p3 }}
-  </p>
+    <p>
+      {{ p2 }}
+    </p>
 
-  {{#article.blockquote}}
-    {{> base-blockquote }}
-  {{/article.blockquote}}
+    <p>
+      {{ p3 }}
+    </p>
 
-  <p>
-    {{ article.p4 }}
-  </p>
+    {{#blockquote}}
+      {{> base-blockquote }}
+    {{/blockquote}}
 
-  <p>
-    {{ article.p5 }}
-  </p>
+    <p>
+      {{ p4 }}
+    </p>
 
-  <p>
-    {{ article.p6 }}
-  </p>
+    <p>
+      {{ p5 }}
+    </p>
 
-  <p>
-    {{ article.p7 }}
-  </p>
+    <p>
+      {{ p6 }}
+    </p>
 
-  <p>
-    {{ article.p8 }}
-  </p>
-</div>
+    <p>
+      {{ p7 }}
+    </p>
+
+    <p>
+      {{ p8 }}
+    </p>
+  </div>
+
+{{/articles}}

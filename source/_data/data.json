@@ -3,6 +3,8 @@
   "tagline": "Max Antonucci's pattern library",
   "htmlClass": "pl",
   "bodyClass": "body",
+  "pagination_active": false,
+
   "img": {
     "landscape-4x3": {
       "src": "http://placeimg.com/400/300/nature",
@@ -35,7 +37,6 @@
     "long" : "What the hell was that wriggling piece of plywood!? Ack! Hey! Detective Gumshoe! S-Stop that! I can't be seen doing... that! (Um... didn't they all die?) Why did I become a lawyer in the first place...? Because someone has to look out for the people who have no one on their side. Uh, excuse me? (I bet I know who she picked 'Nick' from…) Of course! Except, I've been slacking off lately… I need to brave the elements and be forged anew under the rushing spring waters! I'm inclined to agree."
   },
   "description" : "So, setting about it as methodically as men might smoke out a wasps' nest, the Martians spread this strange stifling vapour over the Londonward country. The horns of the crescent slowly moved apart, until at last they formed a line from Hanwell to Coombe and Malden. All night through their destructive tubes advanced.",
-  "blockquote": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis necessitatibus nobis, fuga, id blanditiis numquam qui sed nostrum. Animi repellat explicabo sunt aspernatur, deleniti commodi laboriosam, maxime minus ipsam voluptatem.",
   "url" : "javascript:void(0)",
   "name" : {
     "first": "Lacy",
