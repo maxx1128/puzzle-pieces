@@ -1,33 +1,39 @@
 {
   "category_svgs": [
     {
-      "label": "Code",
+      "label": "Post",
       "svg": {
-        "icon": "feather",
-        "classes": ""
-      }
-    }, {
-      "label": "Quote",
-      "svg": {
-        "icon": "feather",
+        "icon": "edit-3",
         "classes": ""
       }
     }, {
       "label": "Aside",
       "svg": {
-        "icon": "feather",
+        "icon": "cast",
         "classes": ""
       }
     }, {
-      "label": "Post",
+      "label": "Code",
       "svg": {
-        "icon": "feather",
+        "icon": "codepen",
         "classes": ""
       }
     }, {
-      "label": "Media",
+      "label": "Image",
       "svg": {
-        "icon": "feather",
+        "icon": "image",
+        "classes": ""
+      }
+    }, {
+      "label": "Video",
+      "svg": {
+        "icon": "video",
+        "classes": ""
+      }
+    }, {
+      "label": "Quote",
+      "svg": {
+        "icon": "at-sign",
         "classes": ""
       }
     }

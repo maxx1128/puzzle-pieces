@@ -3,6 +3,11 @@
     "single": true,
     "classes": "",
 
+    "date": {
+      "text": "November 28, 2010",
+      "classes": ""
+    },
+
     "headline": {
       "text": "Lorem Ipsum",
       "classes": ""
@@ -10,7 +15,7 @@
     
     "logo": {
       "svg_bubble": {
-        "classes": "max-svg-children-h2 max-flex-item max-flex-nogrow max-mr-oneHalf max-mt-base",
+        "classes": "max-svg-children-h2 max-flex-item max-flex-nogrow max-mr-oneHalf max-mt-half",
         "svgs": [{
           "svg": {
             "icon": "feather",
