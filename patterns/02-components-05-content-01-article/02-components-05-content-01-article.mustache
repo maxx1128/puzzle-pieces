@@ -1,37 +1,41 @@
-{{> components-logo-headline }}
+{{#articles}} {{> components-logo-headline }}
 
-<div class="max-ml-svg-bubble-md max-pl-oneHalf-md">
+<div class="max-ml-svg-bubble-md max-pl-oneHalf-md max-mb-quad">
   <p>
-    {{ article.p1 }}
+    {{ p1 }}
   </p>
 
   <p>
-    {{ article.p2 }}
+    {{ p2 }}
+  </p>
+
+  {{#figure}} {{> base-figure-with-caption }} {{/figure}}
+
+  <p>
+    {{ p3 }}
+  </p>
+
+  {{#blockquote}} {{> base-blockquote }} {{/blockquote}}
+
+  <p>
+    {{ p4 }}
   </p>
 
   <p>
-    {{ article.p3 }}
-  </p>
-
-  {{#article.blockquote}} {{> base-blockquote }} {{/article.blockquote}}
-
-  <p>
-    {{ article.p4 }}
+    {{ p5 }}
   </p>
 
   <p>
-    {{ article.p5 }}
+    {{ p6 }}
   </p>
 
   <p>
-    {{ article.p6 }}
+    {{ p7 }}
   </p>
 
   <p>
-    {{ article.p7 }}
-  </p>
-
-  <p>
-    {{ article.p8 }}
+    {{ p8 }}
   </p>
 </div>
+
+{{/articles}}

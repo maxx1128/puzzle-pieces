@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1511748016014,
+  "timestamp": 1511978939353,
   "graph": {
     "options": {
       "directed": true,
@@ -93,7 +93,9 @@
       {
         "v": "01-base/05-images/05-figure-with-caption.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/02-components-05-content-01-article/02-components-05-content-01-article.rendered.html",
+          "lineagePattern": "components-article"
         }
       },
       {
@@ -131,6 +133,12 @@
         }
       },
       {
+        "v": "02-components/00-media/03-image-group.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
         "v": "02-components/01-navigation/00-top-menu-link.mustache",
         "value": {
           "compileState": "clean",
@@ -161,6 +169,14 @@
         }
       },
       {
+        "v": "02-components/05-content/02-job-entry.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-templates-03-resume/04-templates-03-resume.rendered.html",
+          "lineagePattern": "templates-resume"
+        }
+      },
+      {
         "v": "02-components/05-content/05-wisdom.mustache",
         "value": {
           "compileState": "clean",
@@ -172,12 +188,20 @@
         "v": "03-patterns/01-navigation/01-top-menu.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/04-templates-02-article/04-templates-02-article.rendered.html",
-          "lineagePattern": "templates-article"
+          "lineagePath": "../../patterns/04-templates-03-resume/04-templates-03-resume.rendered.html",
+          "lineagePattern": "templates-resume"
         }
       },
       {
         "v": "03-patterns/01-navigation/02-left-nav.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-templates-03-resume/04-templates-03-resume.rendered.html",
+          "lineagePattern": "templates-resume"
+        }
+      },
+      {
+        "v": "03-patterns/01-navigation/03-pagination.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/04-templates-02-article/04-templates-02-article.rendered.html",
@@ -186,6 +210,28 @@
       },
       {
         "v": "04-templates/02-article.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/05-pages-02-multiple-articles/05-pages-02-multiple-articles.rendered.html",
+          "lineagePattern": "pages-multiple-articles"
+        }
+      },
+      {
+        "v": "04-templates/03-resume.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/05-pages-03-resume/05-pages-03-resume.rendered.html",
+          "lineagePattern": "pages-resume"
+        }
+      },
+      {
+        "v": "05-pages/02-multiple-articles.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "05-pages/03-resume.mustache",
         "value": {
           "compileState": "clean"
         }
@@ -225,6 +271,11 @@
         "value": {}
       },
       {
+        "v": "02-components/00-media/03-image-group.mustache",
+        "w": "01-base/05-images/05-figure-with-caption.mustache",
+        "value": {}
+      },
+      {
         "v": "02-components/04-typography/01-logo-headline.mustache",
         "w": "02-components/00-media/02-svg-bubble.mustache",
         "value": {}
@@ -232,6 +283,11 @@
       {
         "v": "02-components/05-content/01-article.mustache",
         "w": "02-components/04-typography/01-logo-headline.mustache",
+        "value": {}
+      },
+      {
+        "v": "02-components/05-content/01-article.mustache",
+        "w": "01-base/05-images/05-figure-with-caption.mustache",
         "value": {}
       },
       {
@@ -267,6 +323,36 @@
       {
         "v": "04-templates/02-article.mustache",
         "w": "02-components/05-content/01-article.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-templates/02-article.mustache",
+        "w": "03-patterns/01-navigation/03-pagination.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-templates/03-resume.mustache",
+        "w": "03-patterns/01-navigation/01-top-menu.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-templates/03-resume.mustache",
+        "w": "03-patterns/01-navigation/02-left-nav.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-templates/03-resume.mustache",
+        "w": "02-components/05-content/02-job-entry.mustache",
+        "value": {}
+      },
+      {
+        "v": "05-pages/02-multiple-articles.mustache",
+        "w": "04-templates/02-article.mustache",
+        "value": {}
+      },
+      {
+        "v": "05-pages/03-resume.mustache",
+        "w": "04-templates/03-resume.mustache",
         "value": {}
       }
     ]

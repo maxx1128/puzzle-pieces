@@ -1,0 +1,23 @@
+<section>
+  {{#job_entry}}
+  <article class="max-mb-double">
+    <small class="max-font-weight-light max-color-primary-light">
+        <span class="max-font-weight-semibold">{{company}}</span> from {{start}} to {{end}}
+      </small>
+
+    <h4 class="max-color-primary-darker">
+      {{title}}
+    </h4>
+
+    <div class="max-pl-half max-pl-base-sm max-pl-double-md">
+      <p>
+        <strong>Skills Used:</strong> {{skills}}
+      </p>
+
+      <p>
+        {{descr}}
+      </p>
+    </div>
+  </article>
+  {{/job_entry}}
+</section>
