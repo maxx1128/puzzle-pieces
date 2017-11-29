@@ -1,6 +1,7 @@
 {
   "figure": {
     "img": "http://lorempixel.com/800/400",
-    "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    "caption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "classes": ""
   }
 }

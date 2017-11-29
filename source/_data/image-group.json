@@ -1,0 +1,20 @@
+{
+  "image_group": {
+    "classes": "",
+    "image_classes": "max-flex-basis-6-sm max-flex-basis-4-md max-px-half-sm",
+    
+    "images": [
+      {
+        "figure": {}
+      }, {
+        "figure": {}
+      }, {
+        "figure": {}
+      }, {
+        "figure": {}
+      }, {
+        "figure": {}
+      }
+    ]
+  }
+}
