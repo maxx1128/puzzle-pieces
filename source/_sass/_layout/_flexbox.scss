@@ -4,11 +4,11 @@
 #{$g-nmsp}-flex-item { flex: 1 1 auto; }
 #{$g-nmsp}-flex-nogrow { flex-grow: 0; }
 
-@for $i from 1 through $g-grid-columns {
-  $perc-width: percentage($i/$g-grid-columns);
+@each $bp-label, $bp-width in $breakpoint-map {
+  $bp-label-final: '';
 
-  @each $bp-label, $bp-width in $breakpoint-map {
-    $bp-label-final: '';
+  @for $i from 1 through $g-grid-columns {
+    $perc-width: percentage($i/$g-grid-columns);
 
     @if ($bp-label != 'xs') { $bp-label-final: '-' + $bp-label; }
 
