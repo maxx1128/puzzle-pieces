@@ -3,6 +3,8 @@
         {
           "blockquote": true,
           "figure": true,
+          "youtube": true,
+          "iframe": true,
       
           "p1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum fugiat voluptatibus commodi voluptas minima accusantium! Praesentium hic, est aut aliquam, suscipit aliquid tempore beatae eius aperiam, saepe porro quo enim?",
           "p2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum fugiat voluptatibus commodi voluptas minima accusantium! Praesentium hic, est aut aliquam, suscipit aliquid tempore beatae eius aperiam, saepe porro quo enim?",

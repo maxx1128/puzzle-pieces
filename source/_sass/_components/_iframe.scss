@@ -1,0 +1,22 @@
+#{$g-nmsp}-iframe-wrapper {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%; // For ratio 16:9. 75% if ratio is 4:3
+  margin-bottom: spacing();
+  position: relative;
+
+  @include larger-than(md) {
+    width: 85%;
+    margin: 0 auto spacing();
+  }
+
+  embed,
+  object,
+  iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
