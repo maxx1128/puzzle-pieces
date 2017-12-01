@@ -7,11 +7,11 @@
     {{> patterns-left-nav }}
   </div>
 
-  <div class="{{ left_nav.content_classes }}">
+  <main role="main" class="{{ left_nav.content_classes }}">
     {{> patterns-article }}
 
     {{#pagination_active}}
       {{> patterns-pagination }}
     {{/pagination_active}}
-  </div>
+  </main>
 </div>
