@@ -42,6 +42,12 @@ ol {
   ol { margin-top: spacing(half); }
 }
 
+a {
+  color: color(action);
+
+  @include hovers() { color: color(action, dark); }
+}
+
 #{$g-nmsp}-list-style-none { list-style-type: none; }
 
 @each $header in $header-els {
