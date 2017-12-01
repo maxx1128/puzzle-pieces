@@ -1,0 +1,53 @@
+{{#articles}}
+<div class="max-maxWidth-lg max-mx-auto">
+  {{> components-logo-headline }}
+
+  <div class="max-ml-svg-bubble-md max-pl-oneHalf-md max-mb-quad">
+    <p>
+      {{ p1 }}
+    </p>
+
+    <p>
+      {{ p2 }}
+    </p>
+
+    {{#figure}} {{> base-figure-with-caption }}
+
+    <p>
+      {{ p3 }}
+    </p>
+
+    <p>
+      {{ p4 }}
+    </p>
+    {{/figure}} {{#blockquote}} {{> base-blockquote }}
+
+    <p>
+      {{ p1 }}
+    </p>
+
+    <p>
+      {{ p2 }}
+    </p>
+    {{/blockquote}} {{#youtube}} {{> components-youtube-embed }}
+
+    <p>
+      {{ p3 }}
+    </p>
+
+    <p>
+      {{ p4 }}
+    </p>
+    {{/youtube}} {{#iframe}} {{> components-iframe-embed }}
+
+    <p>
+      {{ p1 }}
+    </p>
+
+    <p>
+      {{ p2 }}
+    </p>
+    {{/iframe}}
+  </div>
+</div>
+{{/articles}}

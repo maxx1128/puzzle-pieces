@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1511978939353,
+  "timestamp": 1512151770596,
   "graph": {
     "options": {
       "directed": true,
@@ -54,8 +54,8 @@
         "v": "01-base/03-text/03-blockquote.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-components-05-content-01-article/02-components-05-content-01-article.rendered.html",
-          "lineagePattern": "components-article"
+          "lineagePath": "../../patterns/03-patterns-02-content-01-article/03-patterns-02-content-01-article.rendered.html",
+          "lineagePattern": "patterns-article"
         }
       },
       {
@@ -79,7 +79,9 @@
       {
         "v": "01-base/05-images/00-logo.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-templates-05-homepage/04-templates-05-homepage.rendered.html",
+          "lineagePattern": "templates-homepage"
         }
       },
       {
@@ -94,8 +96,8 @@
         "v": "01-base/05-images/05-figure-with-caption.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-components-05-content-01-article/02-components-05-content-01-article.rendered.html",
-          "lineagePattern": "components-article"
+          "lineagePath": "../../patterns/03-patterns-02-content-01-article/03-patterns-02-content-01-article.rendered.html",
+          "lineagePattern": "patterns-article"
         }
       },
       {
@@ -139,6 +141,22 @@
         }
       },
       {
+        "v": "02-components/00-media/04-youtube-embed.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-patterns-02-content-01-article/03-patterns-02-content-01-article.rendered.html",
+          "lineagePattern": "patterns-article"
+        }
+      },
+      {
+        "v": "02-components/00-media/05-iframe-embed.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-patterns-02-content-01-article/03-patterns-02-content-01-article.rendered.html",
+          "lineagePattern": "patterns-article"
+        }
+      },
+      {
         "v": "02-components/01-navigation/00-top-menu-link.mustache",
         "value": {
           "compileState": "clean",
@@ -156,16 +174,8 @@
         "v": "02-components/04-typography/01-logo-headline.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/02-components-05-content-01-article/02-components-05-content-01-article.rendered.html",
-          "lineagePattern": "components-article"
-        }
-      },
-      {
-        "v": "02-components/05-content/01-article.mustache",
-        "value": {
-          "compileState": "clean",
-          "lineagePath": "../../patterns/04-templates-02-article/04-templates-02-article.rendered.html",
-          "lineagePattern": "templates-article"
+          "lineagePath": "../../patterns/03-patterns-02-content-01-article/03-patterns-02-content-01-article.rendered.html",
+          "lineagePattern": "patterns-article"
         }
       },
       {
@@ -188,16 +198,16 @@
         "v": "03-patterns/01-navigation/01-top-menu.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/04-templates-03-resume/04-templates-03-resume.rendered.html",
-          "lineagePattern": "templates-resume"
+          "lineagePath": "../../patterns/04-templates-05-homepage/04-templates-05-homepage.rendered.html",
+          "lineagePattern": "templates-homepage"
         }
       },
       {
         "v": "03-patterns/01-navigation/02-left-nav.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/04-templates-03-resume/04-templates-03-resume.rendered.html",
-          "lineagePattern": "templates-resume"
+          "lineagePath": "../../patterns/04-templates-05-homepage/04-templates-05-homepage.rendered.html",
+          "lineagePattern": "templates-homepage"
         }
       },
       {
@@ -209,11 +219,27 @@
         }
       },
       {
+        "v": "03-patterns/02-content/01-article.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-templates-02-article/04-templates-02-article.rendered.html",
+          "lineagePattern": "templates-article"
+        }
+      },
+      {
+        "v": "03-patterns/02-content/02-page-title.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-templates-05-homepage/04-templates-05-homepage.rendered.html",
+          "lineagePattern": "templates-homepage"
+        }
+      },
+      {
         "v": "04-templates/02-article.mustache",
         "value": {
           "compileState": "clean",
-          "lineagePath": "../../patterns/05-pages-02-multiple-articles/05-pages-02-multiple-articles.rendered.html",
-          "lineagePattern": "pages-multiple-articles"
+          "lineagePath": "../../patterns/05-pages-02-blog-archive/05-pages-02-blog-archive.rendered.html",
+          "lineagePattern": "pages-blog-archive"
         }
       },
       {
@@ -225,13 +251,47 @@
         }
       },
       {
-        "v": "05-pages/02-multiple-articles.mustache",
+        "v": "04-templates/04-static-page.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/05-pages-04-about-me/05-pages-04-about-me.rendered.html",
+          "lineagePattern": "pages-about-me"
+        }
+      },
+      {
+        "v": "04-templates/05-homepage.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/05-pages-05-homepage/05-pages-05-homepage.rendered.html",
+          "lineagePattern": "pages-homepage"
+        }
+      },
+      {
+        "v": "05-pages/01-single-article.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "05-pages/02-blog-archive.mustache",
         "value": {
           "compileState": "clean"
         }
       },
       {
         "v": "05-pages/03-resume.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "05-pages/04-about-me.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
+        "v": "05-pages/05-homepage.mustache",
         "value": {
           "compileState": "clean"
         }
@@ -281,21 +341,6 @@
         "value": {}
       },
       {
-        "v": "02-components/05-content/01-article.mustache",
-        "w": "02-components/04-typography/01-logo-headline.mustache",
-        "value": {}
-      },
-      {
-        "v": "02-components/05-content/01-article.mustache",
-        "w": "01-base/05-images/05-figure-with-caption.mustache",
-        "value": {}
-      },
-      {
-        "v": "02-components/05-content/01-article.mustache",
-        "w": "01-base/03-text/03-blockquote.mustache",
-        "value": {}
-      },
-      {
         "v": "03-patterns/01-navigation/01-top-menu.mustache",
         "w": "02-components/01-navigation/00-top-menu-link.mustache",
         "value": {}
@@ -311,6 +356,31 @@
         "value": {}
       },
       {
+        "v": "03-patterns/02-content/01-article.mustache",
+        "w": "02-components/04-typography/01-logo-headline.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-patterns/02-content/01-article.mustache",
+        "w": "01-base/05-images/05-figure-with-caption.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-patterns/02-content/01-article.mustache",
+        "w": "01-base/03-text/03-blockquote.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-patterns/02-content/01-article.mustache",
+        "w": "02-components/00-media/04-youtube-embed.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-patterns/02-content/01-article.mustache",
+        "w": "02-components/00-media/05-iframe-embed.mustache",
+        "value": {}
+      },
+      {
         "v": "04-templates/02-article.mustache",
         "w": "03-patterns/01-navigation/01-top-menu.mustache",
         "value": {}
@@ -322,7 +392,7 @@
       },
       {
         "v": "04-templates/02-article.mustache",
-        "w": "02-components/05-content/01-article.mustache",
+        "w": "03-patterns/02-content/01-article.mustache",
         "value": {}
       },
       {
@@ -346,13 +416,63 @@
         "value": {}
       },
       {
-        "v": "05-pages/02-multiple-articles.mustache",
+        "v": "04-templates/04-static-page.mustache",
+        "w": "03-patterns/01-navigation/01-top-menu.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-templates/04-static-page.mustache",
+        "w": "03-patterns/01-navigation/02-left-nav.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-templates/04-static-page.mustache",
+        "w": "03-patterns/02-content/02-page-title.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-templates/05-homepage.mustache",
+        "w": "03-patterns/01-navigation/01-top-menu.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-templates/05-homepage.mustache",
+        "w": "03-patterns/01-navigation/02-left-nav.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-templates/05-homepage.mustache",
+        "w": "03-patterns/02-content/02-page-title.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-templates/05-homepage.mustache",
+        "w": "01-base/05-images/00-logo.mustache",
+        "value": {}
+      },
+      {
+        "v": "05-pages/01-single-article.mustache",
+        "w": "04-templates/02-article.mustache",
+        "value": {}
+      },
+      {
+        "v": "05-pages/02-blog-archive.mustache",
         "w": "04-templates/02-article.mustache",
         "value": {}
       },
       {
         "v": "05-pages/03-resume.mustache",
         "w": "04-templates/03-resume.mustache",
+        "value": {}
+      },
+      {
+        "v": "05-pages/04-about-me.mustache",
+        "w": "04-templates/04-static-page.mustache",
+        "value": {}
+      },
+      {
+        "v": "05-pages/05-homepage.mustache",
+        "w": "04-templates/05-homepage.mustache",
         "value": {}
       }
     ]
