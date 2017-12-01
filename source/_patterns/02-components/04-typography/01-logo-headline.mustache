@@ -1,4 +1,4 @@
-<div class="max-flex max-flex-wrap max-flex-nowrap-md max-flex-align-start max-flex-justify-center {{logo_headline.classes}} max-svg-children-h3 {{^logo_headline.single}}max-svg-children-h4{{/logo_headline.single}}">
+<div class="max-flex max-flex-wrap max-flex-nowrap-md max-flex-align-start max-flex-justify-center {{logo_headline.classes}} max-svg-children-h3 {{^logo_headline.link}}max-svg-children-h4{{/logo_headline.link}}">
 
   {{#logo_headline.logo}}
     {{> components-svg-bubble }}
@@ -9,15 +9,18 @@
       {{logo_headline.date.text}}
     </tiny>
 
-    {{#logo_headline.single}}
-      <h2 class="max-line-height-h4 max-mt-none {{double_underline}} {{logo_headline.headline.classes}}">
+    {{#logo_headline.link}}
+      <h4 class="max-mt-none {{double_underline}} {{logo_headline.headline.classes}}">
+        <a class="max-no-underline max-color-action-dark max-color-action-darker-hover max-trans" href="{{ logo_headline.link }}">
+          {{logo_headline.headline.text}}
+        </a>
+      </h4>
+    {{/logo_headline.link}}  
+    
+    {{^logo_headline.link}}
+      <h2 class="max-line-height-small max-pb-half {{double_underline}} {{logo_headline.headline.classes}}">
         {{logo_headline.headline.text}}
       </h2>
-    {{/logo_headline.single}}  
-    {{^logo_headline.single}}
-      <h4 class="max-line-height-h4 max-mt-base {{double_underline}} {{logo_headline.headline.classes}}">
-        {{logo_headline.headline.text}}
-      </h4>
-    {{/logo_headline.single}}
+    {{/logo_headline.link}}
   </div>
 </div>

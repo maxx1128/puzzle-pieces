@@ -1,7 +1,7 @@
 {
   "logo_headline": {
-    "single": true,
     "classes": "",
+    "link": false,
 
     "date": {
       "text": "November 28, 2010",

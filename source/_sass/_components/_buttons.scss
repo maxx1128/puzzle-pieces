@@ -10,13 +10,13 @@
 }
 
 #{$g-nmsp}-btn-small {
-  padding: spacing(half);
+  padding: spacing(quart) spacing();
 
   font-size: type(font-size, small);
 }
 
 #{$g-nmsp}-btn-large {
-  padding: spacing();
+  padding: spacing() spacing(oneHalf);
 
   font-size: type(font-size, h5);
 

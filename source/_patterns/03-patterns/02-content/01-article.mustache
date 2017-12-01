@@ -11,18 +11,6 @@
         {{ p2 }}
       </p>
 
-      {{#figure}}
-        {{> base-figure-with-caption }}
-
-        <p>
-          {{ p3 }}
-        </p>
-
-        <p>
-          {{ p4 }}
-        </p>
-      {{/figure}}
-
       {{#blockquote}}
         {{> base-blockquote }}
 
@@ -34,6 +22,18 @@
           {{ p2 }}
         </p>
       {{/blockquote}}
+
+      {{#figure}}
+        {{> base-figure-with-caption }}
+
+        <p>
+          {{ p3 }}
+        </p>
+
+        <p>
+          {{ p4 }}
+        </p>
+      {{/figure}}
 
       {{#youtube}}
         {{> components-youtube-embed }}
