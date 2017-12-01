@@ -12,6 +12,9 @@ body {
   
   @if ($label != 'xs') {
     #{$g-nmsp}-maxWidth-#{$label} { max-width: $width; }
+
+    #{$g-nmsp}-float-right-#{$label} { float: right; }
+    #{$g-nmsp}-float-left-#{$label} { float: left; }
   }
 }
 
@@ -19,3 +22,6 @@ body {
 #{$g-nmsp}-max-width-100 { max-width: 100%; }
 #{$g-nmsp}-full-height { height: 100%; }
 
+#{$g-nmsp}-width-25 { width: 25%; }
+#{$g-nmsp}-width-50 { width: 25%; }
+#{$g-nmsp}-width-75 { width: 25%; }
