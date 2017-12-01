@@ -17,7 +17,8 @@ $containers-map: (
   border-radius: (
     small: spacing(quart),
     base: spacing(half),
-    large: spacing()
+    large: spacing(),
+    full: 100%
   ),
 
   box-shadow: (

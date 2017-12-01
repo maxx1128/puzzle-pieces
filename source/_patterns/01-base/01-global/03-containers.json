@@ -5,7 +5,8 @@
       "values": [
         { "name": "small" },
         { "name": "base" },
-        { "name": "large" }
+        { "name": "large" },
+        { "name": "full" }
       ]
     }, { 
       "property": "box-shadow",
