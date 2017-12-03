@@ -8,6 +8,10 @@ body {
   background-color: color(mono, lightest);
 }
 
+#{$g-nmsp}-clearfix { @include clearfix(); }
+#{$g-nmsp}-max-width-100 { max-width: 100%; }
+#{$g-nmsp}-full-height { height: 100%; }
+
 @each $bp-label, $bp-width in $breakpoint-map {
   $bp-label-final: '';
 
@@ -26,7 +30,3 @@ body {
     #{$g-nmsp}-float-left#{$bp-label-final} { float: left; }
   }
 }
-
-#{$g-nmsp}-clearfix { @include clearfix(); }
-#{$g-nmsp}-max-width-100 { max-width: 100%; }
-#{$g-nmsp}-full-height { height: 100%; }

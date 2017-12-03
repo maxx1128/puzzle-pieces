@@ -7,7 +7,7 @@
   @include larger-than(md) {
     height: 100vh;
     max-height: 100vh;
-    grid-template-columns: rem(350px) 1fr;
+    grid-template-columns: rem(320px) 1fr;
     grid-template-rows: auto 1fr;
 
     overflow: hidden;

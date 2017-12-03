@@ -1,1 +1,7 @@
 img { max-width: 100%; }
+
+#{$g-nmsp}-bg-img-cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
