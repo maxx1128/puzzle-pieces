@@ -35,5 +35,9 @@
     <p>
       {{ articles_text }}
     </p>
+
+    {{#articles}}
+      {{> components-external-article }}
+    {{/articles}}
   </main>
 </div>

@@ -1,5 +1,10 @@
 {
   "experience_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, nobis sunt ea harum eveniet.", 
   "project_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, nobis sunt ea harum eveniet.",
-  "articles_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, nobis sunt ea harum eveniet."
+  "articles_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, nobis sunt ea harum eveniet.",
+
+  "articles": [
+    {},
+    {}
+  ]
 }
