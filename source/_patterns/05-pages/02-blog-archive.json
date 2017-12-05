@@ -8,6 +8,7 @@
       },
       "blockquote": false,
       "figure": false,
+      "code": false,
       "youtube": false,
       "iframe": false,
   
@@ -21,6 +22,7 @@
       },
       "blockquote": true,
       "figure": false,
+      "code": true,
       "youtube": true,
       "iframe": false,
   
@@ -34,6 +36,7 @@
       },
       "blockquote": false,
       "figure": true,
+      "code": false,
       "youtube": false,
       "iframe": true,
   
@@ -47,6 +50,7 @@
       },
       "blockquote": false,
       "figure": true,
+      "code": false,
       "youtube": true,
       "iframe": false,
   
@@ -60,6 +64,7 @@
       },
       "blockquote": true,
       "figure": false,
+      "code": true,
       "youtube": false,
       "iframe": true,
   

@@ -6,7 +6,22 @@ body {
 }
 
 code,
+pre,
 kbd { font-family: type(font-family, mono); }
+
+pre {
+  @include contra-color(color(mono, darker));
+  display: block;
+  max-width: 100%;
+  max-height: rem(400px);
+  padding: spacing(oneHalf);
+  margin: spacing(double) 0;
+
+  box-shadow: container(box-shadow, 1);
+
+  white-space: pre-line;
+  overflow-y: scroll;
+}
 
 #{$g-nmsp}-italic { font-style: italic; }
 #{$g-nmsp}-underline { text-decoration: underline; }

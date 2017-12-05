@@ -5,6 +5,7 @@
     {
       "blockquote": true,
       "figure": false,
+      "code": true,
       "youtube": false,
       "iframe": false,
   
