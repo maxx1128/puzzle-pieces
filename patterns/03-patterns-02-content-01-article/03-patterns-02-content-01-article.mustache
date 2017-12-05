@@ -1,5 +1,5 @@
 {{#articles}}
-<div class="max-maxWidth-lg max-mx-auto">
+<article role="article" class="max-maxWidth-lg max-mx-auto">
   {{> components-logo-headline }}
 
   <div class="max-ml-svg-bubble-md max-pl-oneHalf-md max-mb-quad">
@@ -11,16 +11,7 @@
       {{ p2 }}
     </p>
 
-    {{#figure}} {{> base-figure-with-caption }}
-
-    <p>
-      {{ p3 }}
-    </p>
-
-    <p>
-      {{ p4 }}
-    </p>
-    {{/figure}} {{#blockquote}} {{> base-blockquote }}
+    {{#blockquote}} {{> base-blockquote }}
 
     <p>
       {{ p1 }}
@@ -29,7 +20,16 @@
     <p>
       {{ p2 }}
     </p>
-    {{/blockquote}} {{#youtube}} {{> components-youtube-embed }}
+    {{/blockquote}} {{#figure}} {{> base-figure-with-caption }}
+
+    <p>
+      {{ p3 }}
+    </p>
+
+    <p>
+      {{ p4 }}
+    </p>
+    {{/figure}} {{#youtube}} {{> components-youtube-embed }}
 
     <p>
       {{ p3 }}
@@ -49,5 +49,5 @@
     </p>
     {{/iframe}}
   </div>
-</div>
+</article>
 {{/articles}}

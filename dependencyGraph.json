@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1512151770596,
+  "timestamp": 1512439034929,
   "graph": {
     "options": {
       "directed": true,
@@ -157,6 +157,20 @@
         }
       },
       {
+        "v": "02-components/00-media/06-image-link.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-patterns-03-media-00-image-link-group/03-patterns-03-media-00-image-link-group.rendered.html",
+          "lineagePattern": "patterns-image-link-group"
+        }
+      },
+      {
+        "v": "02-components/00-media/07-external-article.mustache",
+        "value": {
+          "compileState": "clean"
+        }
+      },
+      {
         "v": "02-components/01-navigation/00-top-menu-link.mustache",
         "value": {
           "compileState": "clean",
@@ -232,6 +246,14 @@
           "compileState": "clean",
           "lineagePath": "../../patterns/04-templates-05-homepage/04-templates-05-homepage.rendered.html",
           "lineagePattern": "templates-homepage"
+        }
+      },
+      {
+        "v": "03-patterns/03-media/00-image-link-group.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-templates-03-resume/04-templates-03-resume.rendered.html",
+          "lineagePattern": "templates-resume"
         }
       },
       {
@@ -362,12 +384,12 @@
       },
       {
         "v": "03-patterns/02-content/01-article.mustache",
-        "w": "01-base/05-images/05-figure-with-caption.mustache",
+        "w": "01-base/03-text/03-blockquote.mustache",
         "value": {}
       },
       {
         "v": "03-patterns/02-content/01-article.mustache",
-        "w": "01-base/03-text/03-blockquote.mustache",
+        "w": "01-base/05-images/05-figure-with-caption.mustache",
         "value": {}
       },
       {
@@ -378,6 +400,11 @@
       {
         "v": "03-patterns/02-content/01-article.mustache",
         "w": "02-components/00-media/05-iframe-embed.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-patterns/03-media/00-image-link-group.mustache",
+        "w": "02-components/00-media/06-image-link.mustache",
         "value": {}
       },
       {
@@ -413,6 +440,11 @@
       {
         "v": "04-templates/03-resume.mustache",
         "w": "02-components/05-content/02-job-entry.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-templates/03-resume.mustache",
+        "w": "03-patterns/03-media/00-image-link-group.mustache",
         "value": {}
       },
       {
