@@ -19,5 +19,6 @@ module.exports = {
 
   external_links: function(selector) {
     $(selector).attr('target', '_blank');
+    $(selector).attr('rel', 'noopener');
   }
 };

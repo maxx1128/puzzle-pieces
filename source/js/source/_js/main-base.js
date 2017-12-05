@@ -12554,6 +12554,7 @@ module.exports = {
 
   external_links: function external_links(selector) {
     $(selector).attr('target', '_blank');
+    $(selector).attr('rel', 'noopener');
   }
 };
 
@@ -12568,6 +12569,6 @@ var $ = require('jquery'),
 feather.replace();
 wisdoms.activate();
 
-f.external_links('a');
+f.external_links('main article a');
 
 },{"./components/wisdoms":3,"./functions/basic":4,"feather-icons":1,"jquery":2}]},{},[5]);

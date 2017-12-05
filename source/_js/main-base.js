@@ -10,4 +10,4 @@ let
 feather.replace();
 wisdoms.activate();
 
-f.external_links('a');
+f.external_links('main article a');
