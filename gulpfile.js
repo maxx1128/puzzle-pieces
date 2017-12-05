@@ -248,6 +248,12 @@ function watch() {
       tasks: gulp.series('browserify', 'pl-copy:js', reload)
     },
     {
+      name: 'Image Files',
+      paths: [normalizePath(paths().source.images, '**/**/**/*.(png|jpg|jpeg|svg)')],
+      config: { awaitWriteFinish: true },
+      tasks: gulp.series('pl-copy:img', reload)
+    },
+    {
       name: 'Source Files',
       paths: [
         normalizePath(paths().source.patterns, '**', '*.json'),

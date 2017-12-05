@@ -44,8 +44,6 @@ function ma_wisdom(patternId) {
       'To live is to suffer. To survive is to find some meaning in the suffering.'
     ],
     selected_wisdom = wisdoms[Math.floor(Math.random()*wisdoms.length)];
-
-    console.log(selected_wisdom);
   ;
 
   function init() {
