@@ -13,6 +13,12 @@
         "classes": ""
       }
     }, {
+      "label": "Link",
+      "svg": {
+        "icon": "link",
+        "classes": ""
+      }
+    }, {
       "label": "Code",
       "svg": {
         "icon": "codepen",
