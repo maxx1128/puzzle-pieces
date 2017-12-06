@@ -6,6 +6,7 @@
   "pagination_active": false,
 
   "logo_file": "../../images/AnimeAvatar.png",
+  "ext_logo_file": "http://maxwellantonucci.com/puzzle-pieces/images/AnimeAvatar.png",
 
   "img": {
     "landscape-4x3": {
