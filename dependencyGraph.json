@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1512439034929,
+  "timestamp": 1512519725962,
   "graph": {
     "options": {
       "directed": true,
@@ -62,6 +62,14 @@
         "v": "01-base/03-text/04-inline-elements.mustache",
         "value": {
           "compileState": "clean"
+        }
+      },
+      {
+        "v": "01-base/03-text/05-code.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-patterns-02-content-01-article/03-patterns-02-content-01-article.rendered.html",
+          "lineagePattern": "patterns-article"
         }
       },
       {
@@ -167,7 +175,9 @@
       {
         "v": "02-components/00-media/07-external-article.mustache",
         "value": {
-          "compileState": "clean"
+          "compileState": "clean",
+          "lineagePath": "../../patterns/04-templates-03-resume/04-templates-03-resume.rendered.html",
+          "lineagePattern": "templates-resume"
         }
       },
       {
@@ -394,6 +404,11 @@
       },
       {
         "v": "03-patterns/02-content/01-article.mustache",
+        "w": "01-base/03-text/05-code.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-patterns/02-content/01-article.mustache",
         "w": "02-components/00-media/04-youtube-embed.mustache",
         "value": {}
       },
@@ -445,6 +460,11 @@
       {
         "v": "04-templates/03-resume.mustache",
         "w": "03-patterns/03-media/00-image-link-group.mustache",
+        "value": {}
+      },
+      {
+        "v": "04-templates/03-resume.mustache",
+        "w": "02-components/00-media/07-external-article.mustache",
         "value": {}
       },
       {
