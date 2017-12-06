@@ -319,7 +319,7 @@ gulp.task('patternlab:connect', gulp.series(function (done) {
 gulp.task('sass', function () {
     
     var sassOptions = { 
-        outputStyle: 'expanded',
+        outputStyle: 'compressed',
     };
 
     var autoprefixerOptions = {
@@ -333,7 +333,7 @@ gulp.task('sass', function () {
     // Write Sass for either dev or prod
     .pipe(sass(sassOptions))
     .pipe(autoprefixer(autoprefixerOptions))
-    .pipe(sourcemaps.write())
+    // .pipe(sourcemaps.write())
     .pipe(rename("style.css"))
     // Sends the Sass file to either the app or dist folder
     .pipe(gulp.dest('source/css'))
@@ -344,7 +344,7 @@ gulp.task('sass', function () {
 gulp.task('pl-sass', function () {
     
     var sassOptions = { 
-        outputStyle: 'expanded',
+        outputStyle: 'compressed',
     };
 
     var autoprefixerOptions = {
@@ -358,7 +358,7 @@ gulp.task('pl-sass', function () {
     // Write Sass for either dev or prod
     .pipe(sass(sassOptions))
     .pipe(autoprefixer(autoprefixerOptions))
-    .pipe(sourcemaps.write())
+    // .pipe(sourcemaps.write())
     .pipe(rename("pattern-scaffolding.css"))
     // Sends the Sass file to either the app or dist folder
     .pipe(gulp.dest('source/css'))

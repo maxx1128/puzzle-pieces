@@ -1,0 +1,42 @@
+{
+  "defaults": {
+  },
+  "urls": [
+    {
+      "url": "http://localhost:3000/patterns/04-templates-02-article/04-templates-02-article.rendered.html",
+      "timeout": 60000
+    },
+    {
+      "url": "http://localhost:3000/patterns/04-templates-03-resume/04-templates-03-resume.rendered.html",
+      "timeout": 60000
+    },
+    {
+      "url": "http://localhost:3000/patterns/04-templates-04-static-page/04-templates-04-static-page.rendered.html",
+      "timeout": 60000
+    },
+    {
+      "url": "http://localhost:3000/patterns/04-templates-05-homepage/04-templates-05-homepage.rendered.html",
+      "timeout": 60000
+    },
+    {
+      "url": "http://localhost:3000/patterns/05-pages-01-single-article/05-pages-01-single-article.rendered.html",
+      "timeout": 60000
+    },
+    {
+      "url": "http://localhost:3000/patterns/05-pages-02-blog-archive/05-pages-02-blog-archive.rendered.html",
+      "timeout": 60000
+    },
+    {
+      "url": "http://localhost:3000/patterns/05-pages-03-resume/05-pages-03-resume.rendered.html",
+      "timeout": 60000
+    },
+    {
+      "url": "http://localhost:3000/patterns/05-pages-04-about-me/05-pages-04-about-me.rendered.html",
+      "timeout": 60000
+    },
+    {
+      "url": "http://localhost:3000/patterns/05-pages-05-homepage/05-pages-05-homepage.rendered.html",
+      "timeout": 60000
+    }
+  ]
+}
