@@ -5,6 +5,8 @@
   "bodyClass": "body",
   "pagination_active": false,
 
+  "logo_file": "../../images/AnimeAvatar.png",
+
   "img": {
     "landscape-4x3": {
       "src": "http://placeimg.com/400/300/nature",
