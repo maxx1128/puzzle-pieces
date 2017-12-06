@@ -30,3 +30,7 @@ body {
     #{$g-nmsp}-float-left#{$bp-label-final} { float: left; }
   }
 }
+
+@each $label, $length in $spacing-map {
+  #{$g-nmsp}-maxWidth-#{$label} { max-width: $length; }
+}
