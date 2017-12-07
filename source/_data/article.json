@@ -3,6 +3,7 @@
         {
           "blockquote": true,
           "figure": true,
+          "tweet": true,
           "code": true,
           "youtube": true,
           "iframe": true,
