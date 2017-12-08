@@ -1,4 +1,4 @@
 ---
-title: Title here
+title: Homepage Page
 ---
 Section info goes here!

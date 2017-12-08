@@ -1,4 +1,4 @@
 ---
-title: Title here
+title: Inline elements
 ---
 Section info goes here!

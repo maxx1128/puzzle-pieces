@@ -1,4 +1,4 @@
 ---
-title: Title here
+title: Main logo
 ---
 Section info goes here!

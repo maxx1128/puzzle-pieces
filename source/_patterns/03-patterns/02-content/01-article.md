@@ -1,4 +1,4 @@
 ---
-title: Title here
+title: Article
 ---
 Section info goes here!

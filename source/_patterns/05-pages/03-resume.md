@@ -1,4 +1,4 @@
 ---
-title: Title here
+title: Resume Page
 ---
 Section info goes here!

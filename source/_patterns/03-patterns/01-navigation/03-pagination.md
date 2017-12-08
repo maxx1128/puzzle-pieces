@@ -1,4 +1,4 @@
 ---
-title: Title here
+title: Pagination
 ---
 Section info goes here!

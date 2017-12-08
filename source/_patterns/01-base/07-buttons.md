@@ -1,4 +1,4 @@
 ---
-title: Title here
+title: Buttons
 ---
 Section info goes here!

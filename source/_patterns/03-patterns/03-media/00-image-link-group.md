@@ -1,4 +1,4 @@
 ---
-title: Title here
+title: Group of Image Links
 ---
 Section info goes here!

@@ -1,4 +1,4 @@
 ---
-title: Title here
+title: SVG Bubble
 ---
 Section info goes here!

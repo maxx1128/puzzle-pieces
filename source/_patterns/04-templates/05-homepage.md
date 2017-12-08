@@ -1,4 +1,4 @@
 ---
-title: Title here
+title: Homepage Template
 ---
 Section info goes here!

@@ -1,4 +1,4 @@
 ---
-title: Title here
+title: Typography
 ---
 Section info goes here!

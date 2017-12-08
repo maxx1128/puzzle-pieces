@@ -1,4 +1,4 @@
 ---
-title: Title here
+title: Headings
 ---
 Section info goes here!

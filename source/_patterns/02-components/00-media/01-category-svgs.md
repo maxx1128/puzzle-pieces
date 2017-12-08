@@ -1,4 +1,4 @@
 ---
-title: Title here
+title: Category SVGs
 ---
 Section info goes here!

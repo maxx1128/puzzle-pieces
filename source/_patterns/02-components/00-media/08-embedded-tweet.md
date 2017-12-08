@@ -1,4 +1,4 @@
 ---
-title: Title here
+title: Embedded Link
 ---
 Section info goes here!

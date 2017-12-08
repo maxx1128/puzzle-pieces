@@ -1,5 +1,4 @@
 ---
-el: ".max-b-swatches"
 title: "Colors"
 ---
 

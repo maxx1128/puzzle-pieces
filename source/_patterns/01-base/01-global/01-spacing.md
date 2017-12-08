@@ -1,4 +1,4 @@
 ---
-title: Title here
+title: Spacing
 ---
 Section info goes here!

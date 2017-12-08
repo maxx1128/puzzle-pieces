@@ -1,4 +1,4 @@
 ---
-title: Title here
+title: Code Snippet
 ---
 Section info goes here!

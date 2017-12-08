@@ -1,4 +1,4 @@
 ---
-title: Title here
+title: Images
 ---
 Section info goes here!

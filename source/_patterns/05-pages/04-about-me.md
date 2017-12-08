@@ -1,4 +1,4 @@
 ---
-title: Title here
+title: About Me Page
 ---
 Section info goes here!

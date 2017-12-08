@@ -3,6 +3,10 @@ $header-els: 'h1', 'h2', 'h3', 'h4', 'h5', 'h6';
 body {
   line-height: type(line-height, p);
   font-family: type(font-family, base);
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 code,
@@ -46,6 +50,13 @@ pre {
     background-color: color(mono, lighter);
   }
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { font-weight: type(font-weight, bold); }
 
 ul,
 ol {

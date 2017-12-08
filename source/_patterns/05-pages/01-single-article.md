@@ -1,4 +1,4 @@
 ---
-title: Title here
+title: Single Article Page
 ---
 Section info goes here!

@@ -1,4 +1,4 @@
 ---
-title: Title here
+title: Wisdom
 ---
 Section info goes here!

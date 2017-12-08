@@ -1,4 +1,4 @@
 ---
-title: Title here
+title: Button sizes
 ---
 Section info goes here!
