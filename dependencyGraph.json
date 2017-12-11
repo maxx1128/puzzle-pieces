@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1512601200811,
+  "timestamp": 1513015643752,
   "graph": {
     "options": {
       "directed": true,
@@ -73,13 +73,13 @@
         }
       },
       {
-        "v": "01-base/04-lists/00-unordered.mustache",
+        "v": "01-base/03-text/06-unordered.mustache",
         "value": {
           "compileState": "clean"
         }
       },
       {
-        "v": "01-base/04-lists/01-ordered.mustache",
+        "v": "01-base/03-text/07-ordered.mustache",
         "value": {
           "compileState": "clean"
         }
@@ -93,7 +93,7 @@
         }
       },
       {
-        "v": "01-base/05-images/00-svg.mustache",
+        "v": "01-base/05-images/01-svg.mustache",
         "value": {
           "compileState": "clean",
           "lineagePath": "../../patterns/03-patterns-01-navigation-02-left-nav/03-patterns-01-navigation-02-left-nav.rendered.html",
@@ -178,6 +178,14 @@
           "compileState": "clean",
           "lineagePath": "../../patterns/04-templates-03-resume/04-templates-03-resume.rendered.html",
           "lineagePattern": "templates-resume"
+        }
+      },
+      {
+        "v": "02-components/00-media/08-embedded-tweet.mustache",
+        "value": {
+          "compileState": "clean",
+          "lineagePath": "../../patterns/03-patterns-02-content-01-article/03-patterns-02-content-01-article.rendered.html",
+          "lineagePattern": "patterns-article"
         }
       },
       {
@@ -354,12 +362,12 @@
       },
       {
         "v": "02-components/00-media/01-category-svgs.mustache",
-        "w": "01-base/05-images/00-svg.mustache",
+        "w": "01-base/05-images/01-svg.mustache",
         "value": {}
       },
       {
         "v": "02-components/00-media/02-svg-bubble.mustache",
-        "w": "01-base/05-images/00-svg.mustache",
+        "w": "01-base/05-images/01-svg.mustache",
         "value": {}
       },
       {
@@ -379,7 +387,7 @@
       },
       {
         "v": "03-patterns/01-navigation/02-left-nav.mustache",
-        "w": "01-base/05-images/00-svg.mustache",
+        "w": "01-base/05-images/01-svg.mustache",
         "value": {}
       },
       {
@@ -400,6 +408,11 @@
       {
         "v": "03-patterns/02-content/01-article.mustache",
         "w": "01-base/05-images/05-figure-with-caption.mustache",
+        "value": {}
+      },
+      {
+        "v": "03-patterns/02-content/01-article.mustache",
+        "w": "02-components/00-media/08-embedded-tweet.mustache",
         "value": {}
       },
       {
