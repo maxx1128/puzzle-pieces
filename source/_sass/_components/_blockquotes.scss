@@ -11,6 +11,8 @@ blockquote,
   border-top-color: color(primary, darker);
   border-bottom-color: color(primary, dark);
   box-shadow: container(box-shadow, 1);
+
+  p { margin: 0; }
 }
 
 blockquote cite,

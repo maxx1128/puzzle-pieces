@@ -22,9 +22,12 @@ pre {
   margin: spacing(double) 0;
 
   box-shadow: container(box-shadow, 1);
-
-  white-space: pre-line;
   overflow-y: scroll;
+}
+
+figure.highlight {
+  width: 100%;
+  margin: 0;
 }
 
 #{$g-nmsp}-italic { font-style: italic; }
