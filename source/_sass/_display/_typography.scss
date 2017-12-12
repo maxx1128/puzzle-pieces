@@ -60,7 +60,9 @@ h6 { font-weight: type(font-weight, bold); }
 
 ul,
 ol {
-  margin-bottom: spacing(half);
+  margin-bottom: spacing();
+
+  font-size: type(font-size, p);
 
   li { margin-bottom: spacing(half); }
 

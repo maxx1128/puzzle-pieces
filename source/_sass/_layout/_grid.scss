@@ -18,8 +18,6 @@ body {
   @if ($bp-label != 'xs') { $bp-label-final: '-' + $bp-label; }
 
   @include larger-than($bp-label) {
-    #{$g-nmsp}-flex-wrap#{$bp-label-final} { flex-wrap: wrap; }
-
     #{$g-nmsp}-maxWidth#{$bp-label-final} { max-width: $bp-width; }
     #{$g-nmsp}-width-25#{$bp-label-final} { width: 25%; }
     #{$g-nmsp}-width-50#{$bp-label-final} { width: 50%; }
