@@ -3,7 +3,7 @@ blockquote,
   padding: spacing();
   margin: type(margin, p);
 
-  font-size: type(font-size, h5);
+  font-size: type(font-size, h3);
   line-height: type(line-height, large);
   font-family: type(font-family, header);
 
@@ -12,7 +12,17 @@ blockquote,
   border-bottom-color: color(primary, dark);
   box-shadow: container(box-shadow, 1);
 
-  p { margin: 0; }
+  p {
+    margin: 0;
+    font-size: type(font-size, h4);
+    line-height: type(line-height, large);
+  }
+
+  @include larger-than(lg) {
+    width: 50%;
+    margin-left: spacing();
+    float: right;
+  }
 }
 
 blockquote cite,

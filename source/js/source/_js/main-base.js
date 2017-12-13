@@ -12563,7 +12563,7 @@ module.exports = {
       if ($(this).closest('figure').length === 0) {
         var alt_text = $(this).attr('alt');
 
-        $(this).wrap("<figure class='max-inline-flex max-flex-column max-flex-align-start max-m-none max-mb-oneHalf'></figure>");
+        $(this).wrap("<figure class='max-inline-flex max-flex-column max-flex-align-start max-m-none max-my-oneHalf'></figure>");
         $(this).after('<figcaption class="max-font-size-small max-line-height-small max-italic max-color-primary-darker max-pt-quart">' + alt_text + '<figcaption>');
       }
     });
