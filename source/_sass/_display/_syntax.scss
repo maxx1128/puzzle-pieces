@@ -1,3 +1,30 @@
+code,
+pre,
+kbd,
+.highlighter-rouge { font-family: type(font-family, mono); }
+
+.highlighter-rouge {
+  @include contra-color(color(mono, darker));
+  padding: spacing(quart);
+}
+
+pre {
+  @include contra-color(color(mono, darker));
+  display: block;
+  max-width: 100%;
+  max-height: rem(400px);
+  padding: spacing(oneHalf);
+  margin: spacing(double) 0;
+
+  box-shadow: container(box-shadow, 1);
+  overflow: scroll;
+}
+
+figure.highlight {
+  width: 100%;
+  margin: 0;
+}
+
 .c     { color: #998; font-style: italic } // Comment
 .err   { color: #a61717; background-color: #e3d2d2 } // Error
 .k     { font-weight: bold } // Keyword
@@ -33,8 +60,8 @@
 .ne    { color: #900; font-weight: bold } // Name.Exception
 .nf    { color: #900; font-weight: bold } // Name.Function
 .nn    { color: #555 } // Name.Namespace
-.nt    { color: #000080 } // Name.Tag
-.nv    { color: #008080 } // Name.Variable
+.nt    { color: tint(#000080, 60%); } // Name.Tag
+.nv    { color: tint(#008080, 60%); } // Name.Variable
 .ow    { font-weight: bold } // Operator.Word
 .w     { color: #bbb } // Text.Whitespace
 .mf    { color: #099 } // Literal.Number.Float

@@ -12555,6 +12555,18 @@ module.exports = {
   external_links: function external_links(selector) {
     $(selector).attr('target', '_blank');
     $(selector).attr('rel', 'noopener');
+  },
+
+  img_to_figures: function img_to_figures(selector) {
+    $(selector).each(function () {
+
+      if ($(this).closest('figure').length === 0) {
+        var alt_text = $(this).attr('alt');
+
+        $(this).wrap("<figure class='max-inline-flex max-flex-column max-flex-align-start max-m-none max-mb-oneHalf'></figure>");
+        $(this).after('<figcaption class="max-font-size-small max-line-height-small max-italic max-color-primary-darker max-pt-quart">' + alt_text + '<figcaption>');
+      }
+    });
   }
 };
 
@@ -12570,5 +12582,6 @@ feather.replace();
 wisdoms.activate();
 
 f.external_links('main article a');
+f.img_to_figures('main article img');
 
 },{"./components/wisdoms":3,"./functions/basic":4,"feather-icons":1,"jquery":2}]},{},[5]);

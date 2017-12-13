@@ -11,3 +11,4 @@ feather.replace();
 wisdoms.activate();
 
 f.external_links('main article a');
+f.img_to_figures('main article img');
