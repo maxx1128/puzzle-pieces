@@ -1,5 +1,7 @@
 img { max-width: 100%; }
 
+figure img { margin: 0 auto; }
+
 #{$g-nmsp}-bg-img-cover {
   background-size: cover;
   background-repeat: no-repeat;
